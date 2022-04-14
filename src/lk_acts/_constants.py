@@ -1,0 +1,1 @@
+DIR_DOCS = 'docs'

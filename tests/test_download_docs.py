@@ -5,7 +5,13 @@ from lk_acts import download
 
 
 class TestCase(unittest.TestCase):
-    def Test(self):
+    def testGetFile(self):
+        self.assertEqual(
+            download.get_file('bill-99-personal-data-protection'),
+            'docs/bill-99-personal-data-protection.pdf',
+        )
+
+    def testDownloadBill(self):
         for [url, label] in [
             [
                 'http://documents.gov.lk/files/bill/2022/1/167-2022_E.pdf',
@@ -13,7 +19,8 @@ class TestCase(unittest.TestCase):
             ]
         ]:
             doc_file = download.get_file(label)
-            os.rm(doc_file)
+            if os.path.exists(doc_file):
+                os.remove(doc_file)
             download.download_bill(url, label)
             self.assertTrue(os.path.exists(doc_file))
 
