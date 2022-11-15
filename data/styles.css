@@ -1,25 +1,30 @@
 body {
   font-family: sans-serif;
   width: 90%;
+  max-width: 800px;
   margin: auto;
+  margin-top: 12px;
 }
 
 td {
   vertical-align: top;
-  padding-bottom: 20px;
-  border-top: 1px solid lightgray;
+  padding-bottom: 12px;
 }
 
 .title-kicker {
   font-size: 75%;
+  color: #ccc;
 }
 
 .title {
   margin-top: 6px;
+  margin-bottom: 6px;
+  color: #888;
 }
 
 .sub-title {
-  margin-top: 6px;
+  margin: 0;
+  color: #ccc;
 }
 
 .clause {
@@ -31,6 +36,12 @@ td {
   font-size: 75%;
   color: maroon;
   font-weight: normal;
+}
+
+.clause-body {
+  background: #f8f8f8;
+  padding: 12px;
+  border-radius: 12px;
 }
 
 .subclause {

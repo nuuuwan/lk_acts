@@ -76,11 +76,21 @@ def render_clause(clause):
             _(
                 'td',
                 [
-                    _('div', clause['text'], {'class': 'clause-text'}),
-                ]
-                + [
-                    render_subclause(subclause)
-                    for subclause in clause['subclauses']
+                    _(
+                        'div',
+                        [
+                            _(
+                                'div',
+                                clause['text'],
+                                {'class': 'clause-text'},
+                            ),
+                        ]
+                        + [
+                            render_subclause(subclause)
+                            for subclause in clause['subclauses']
+                        ],
+                        {'class': 'clause-body'},
+                    ),
                 ],
             ),
             _(
