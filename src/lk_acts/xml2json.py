@@ -3,6 +3,8 @@ import xml.etree.ElementTree as ET
 
 from utils import JSONFile
 
+from lk_acts import extract
+
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
 
@@ -59,7 +61,7 @@ def parse_textline(i_page, textline):
             y2=y2,
         ),
         font_size=size,
-        class_name=class_name,        
+        class_name=class_name,
         text=inner_text,
     )
 
@@ -71,13 +73,21 @@ def is_valid_textline(data_textline):
     if indent == 22 and stripped_text == 'Personal Data Protection':
         return False
 
-    if indent in [13, 14] and stripped_text in ['5', '10', '15', '20', '25', '30']:
+    if indent in [13, 14] and stripped_text in [
+        '5',
+        '10',
+        '15',
+        '20',
+        '25',
+        '30',
+    ]:
         return False
 
     if indent in [15, 39] and len(stripped_text) <= 3:
         return False
 
     return True
+
 
 def parse_textbox(i_page, textbox):
     textlines = []
@@ -99,9 +109,10 @@ def parse_page(i_page, page):
 
 def parse_pages(pages):
     assert pages.tag == 'pages', pages.tag
-    data = []
+    textlines = []
     for i_page, page in enumerate(pages):
-        data += parse_page(i_page, page)
+        textlines += parse_page(i_page, page)
+    data = extract.extract_data(textlines)
     return data
 
 
