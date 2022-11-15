@@ -14,3 +14,9 @@ def download_bill(url, label):
     doc_file = get_file(label)
     www.download_binary(url, doc_file)
     log.info(f'Downloaded {url} to {doc_file}')
+
+if __name__ == '__main__':
+    download_bill(
+        'http://documents.gov.lk/files/bill/2022/1/167-2022_E.pdf',
+        'bill-2022-09-personal-data-protection',
+    )
