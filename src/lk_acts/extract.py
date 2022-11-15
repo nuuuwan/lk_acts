@@ -114,34 +114,34 @@ def fold_metadata(textlines_with_metadata):
                         l3_textlines += textlines
 
                 if l3:
-                    paragraphs.append(
-                        dict(
-                            paragraph_num=l3,
-                            text=join_textlines(l3_textlines),
-                            subparagraphs=subparagraphs,
-                        )
+                    paragraph = dict(
+                        paragraph_num=l3,
+                        text=join_textlines(l3_textlines),
                     )
+                    if subparagraphs:
+                        paragraph['subparagraphs'] = subparagraphs
+                    paragraphs.append(paragraph)
                 else:
                     l2_textlines += l3_textlines
             if l2:
-                subclauses.append(
-                    dict(
-                        subclause_num=l2,
-                        text=join_textlines(l2_textlines),
-                        paragraphs=paragraphs,
-                    ),
+                subclause = dict(
+                    subclause_num=l2,
+                    text=join_textlines(l2_textlines),
                 )
+                if paragraphs:
+                    subclause['paragraphs'] = paragraphs
+                subclauses.append(subclause)
             else:
                 l1_textlines += l2_textlines
 
-        clauses.append(
-            dict(
-                clause_num=l1,
-                marginal_note=join_textlines(
-                    clause_to_marginal_note.get(l1, '')
-                ),
-                text=join_textlines(l1_textlines),
-                subclauses=subclauses,
-            ),
+        clause = dict(
+            clause_num=l1,
+            marginal_note=join_textlines(clause_to_marginal_note.get(l1, '')),
+            text=join_textlines(l1_textlines),
+            subclauses=subclauses,
         )
+        if subclauses:
+            clause['subclauses'] = subclauses
+
+        clauses.append(clause)
     return clauses
