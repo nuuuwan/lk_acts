@@ -61,11 +61,13 @@ def extract_data(textlines):
             )
         )
 
-    data = fold_metadata(textlines_with_metadata)
-    return data
+    clauses = fold_clauses(textlines_with_metadata)
+    return dict(
+        clauses=clauses,
+    )
 
 
-def fold_metadata(textlines_with_metadata):
+def fold_clauses(textlines_with_metadata):
     idx = {}
     clause_to_marginal_note = {}
     for textline in textlines_with_metadata:
