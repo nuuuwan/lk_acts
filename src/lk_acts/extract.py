@@ -6,12 +6,17 @@ REGEX_PARAGRAPH = '\\((?P<paragraph_num>[ivx]+)\\)\\s.*'
 REGEX_SUB_PARAGRAPH = '\\((?P<sub_paragraph_num>[a-z])\\)\\s.*'
 
 
+def fold_metadata(textlines_with_metadata):
+    return textlines_with_metadata
+
+
 def extract_data(textlines):
-    data = []
+
     clause_num = None
     subclause_num = None
     paragraph_num = None
     sub_paragraph_num = None
+    textlines_with_metadata = []
     for textline in textlines:
         stripped_text = textline['text'].strip()
         if textline['class_name'] == 'normal-bold':
@@ -40,7 +45,7 @@ def extract_data(textlines):
             if result:
                 sub_paragraph_num = result.groupdict()['sub_paragraph_num']
 
-        data.append(
+        textlines_with_metadata.append(
             textline
             | dict(
                 clause_num=clause_num,
@@ -49,4 +54,6 @@ def extract_data(textlines):
                 sub_paragraph_num=sub_paragraph_num,
             )
         )
-    return data
+
+    fold_metadata(textlines_with_metadata)
+    return textlines_with_metadata
