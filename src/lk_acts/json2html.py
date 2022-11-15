@@ -1,11 +1,10 @@
-import os
-import xml.etree.ElementTree as ET
 
 from utils import JSONFile
 from utils.xmlx import _
 
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
+
 
 def render_textline(textline):
     style = {}
@@ -17,15 +16,25 @@ def render_textline(textline):
     x1 = (int)(textline['bbox']['x1'])
     indent = (int)(x1 / 10)
     indent_str = f'[{indent}]' + ('-' * indent)
-    return _('p', indent_str + textline['text'], dict(style=';'.join(
-        list(map(
-            lambda x: '%s:%s' % (x[0], x[1]),
-            style.items(),
-        ))
-    )))
+    return _(
+        'p',
+        indent_str + textline['text'],
+        dict(
+            style=';'.join(
+                list(
+                    map(
+                        lambda x: '%s:%s' % (x[0], x[1]),
+                        style.items(),
+                    )
+                )
+            )
+        ),
+    )
+
 
 def render_textlines(textlines):
-    rendered_inner_list = []
+    pass
+
     def cmp(textline):
         i_page = (int)(textline['i_page'])
         y1 = (int)(textline['bbox']['y1'])
@@ -36,8 +45,12 @@ def render_textlines(textlines):
         key=cmp,
     )
 
-
-    return _('div',  [render_textline(textline) for textline in sorted_textlines] + [_('hr')], {'class': 'textlines'})
+    return _(
+        'div',
+        [render_textline(textline) for textline in sorted_textlines]
+        + [_('hr')],
+        {'class': 'textlines'},
+    )
 
 
 def convert(json_file, html_file):

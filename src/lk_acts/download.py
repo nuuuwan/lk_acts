@@ -15,6 +15,7 @@ def download_bill(url, label):
     www.download_binary(url, doc_file)
     log.info(f'Downloaded {url} to {doc_file}')
 
+
 if __name__ == '__main__':
     download_bill(
         'http://documents.gov.lk/files/bill/2022/1/167-2022_E.pdf',
