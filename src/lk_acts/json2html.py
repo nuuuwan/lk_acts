@@ -24,28 +24,25 @@ def render_textline(textline):
         ))
     )))
 
-def render_page(page):
+def render_textlines(textlines):
     rendered_inner_list = []
-    textlines = []
-    for textline in page['textlines']:
-        textlines.append(textline)
+    def cmp(textline):
+        i_page = (int)(textline['i_page'])
+        y1 = (int)(textline['bbox']['y1'])
+        return i_page * 1_000_000 - y1
 
     sorted_textlines = sorted(
         textlines,
-        key=lambda textline: -(int)(textline['bbox']['y1']),
+        key=cmp,
     )
 
 
-    return _('div',  [render_textline(textline) for textline in sorted_textlines] + [_('hr')], {'class': 'page'})
-
-
-def render_pages(pages):
-    return _('div', [render_page(page) for page in pages], {'class': 'pages'})
+    return _('div',  [render_textline(textline) for textline in sorted_textlines] + [_('hr')], {'class': 'textlines'})
 
 
 def convert(json_file, html_file):
     data = JSONFile(json_file).read()
-    html = _('html', [render_pages(data['pages'])], {})
+    html = _('html', [render_textlines(data)], {})
     html.store(html_file)
 
 
