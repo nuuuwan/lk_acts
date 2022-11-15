@@ -3,11 +3,17 @@ import re
 REGEX_CLAUSE = '(?P<clause_num>\\d+)\\.'
 REGEX_SUBCLAUSE = '\\((?P<subclause_num>\\d+)\\)\\s.*'
 REGEX_PARAGRAPH = '\\((?P<paragraph_num>[ivx]+)\\)\\s.*'
-REGEX_SUB_PARAGRAPH = '\\((?P<sub_paragraph_num>[a-z])\\)\\s.*'
+REGEX_SUB_PARAGRAPH = '\\((?P<sub_paragraph_num>[a-h])\\)\\s.*'
 
 
-def fold_metadata(textlines_with_metadata):
-    return textlines_with_metadata
+def clean_textline(x):
+    return x.strip()
+
+
+def join_textlines(textlines):
+    s = ' '.join(textlines)
+    s = re.sub('\\s+', ' ', s)
+    return s
 
 
 def extract_data(textlines):
@@ -55,5 +61,87 @@ def extract_data(textlines):
             )
         )
 
-    fold_metadata(textlines_with_metadata)
-    return textlines_with_metadata
+    data = fold_metadata(textlines_with_metadata)
+    return data
+
+
+def fold_metadata(textlines_with_metadata):
+    idx = {}
+    clause_to_marginal_note = {}
+    for textline in textlines_with_metadata:
+        l1 = textline['clause_num']
+        l2 = textline['subclause_num']
+        l3 = textline['paragraph_num']
+        l4 = textline['sub_paragraph_num']
+
+        if l1 not in idx:
+            idx[l1] = {}
+        if l2 not in idx[l1]:
+            idx[l1][l2] = {}
+        if l3 not in idx[l1][l2]:
+            idx[l1][l2][l3] = {}
+        if l4 not in idx[l1][l2][l3]:
+            idx[l1][l2][l3][l4] = []
+
+        text = clean_textline(textline['text'])
+        if (float)(textline['font_size']) < 9:
+            if l1 not in clause_to_marginal_note:
+                clause_to_marginal_note[l1] = []
+            clause_to_marginal_note[l1].append(text)
+        else:
+            idx[l1][l2][l3][l4].append(text)
+
+    clauses = []
+    for l1 in idx:
+        l1_textlines = []
+        subclauses = []
+        for l2 in idx[l1]:
+            paragraphs = []
+            l2_textlines = []
+            for l3 in idx[l1][l2]:
+                subparagraphs = []
+                l3_textlines = []
+                for l4 in idx[l1][l2][l3]:
+                    textlines = idx[l1][l2][l3][l4]
+                    if l4:
+                        subparagraphs.append(
+                            dict(
+                                sub_paragraph_num=l4,
+                                text=join_textlines(textlines),
+                            )
+                        )
+                    else:
+                        l3_textlines += textlines
+
+                if l3:
+                    paragraphs.append(
+                        dict(
+                            paragraph_num=l3,
+                            text=join_textlines(l3_textlines),
+                            subparagraphs=subparagraphs,
+                        )
+                    )
+                else:
+                    l2_textlines += l3_textlines
+            if l2:
+                subclauses.append(
+                    dict(
+                        subclause_num=l2,
+                        text=join_textlines(l2_textlines),
+                        paragraphs=paragraphs,
+                    ),
+                )
+            else:
+                l1_textlines += l2_textlines
+
+        clauses.append(
+            dict(
+                clause_num=l1,
+                marginal_note=join_textlines(
+                    clause_to_marginal_note.get(l1, '')
+                ),
+                text=join_textlines(l1_textlines),
+                subclauses=subclauses,
+            ),
+        )
+    return clauses
