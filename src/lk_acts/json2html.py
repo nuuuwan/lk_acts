@@ -31,30 +31,112 @@ def render_textline(textline):
     )
 
 
-def render_textlines(textlines):
-    pass
-
-    def cmp(textline):
-        i_page = (int)(textline['i_page'])
-        y1 = (int)(textline['bbox']['y1'])
-        return i_page * 1_000_000 - y1
-
-    sorted_textlines = sorted(
-        textlines,
-        key=cmp,
-    )
-
+def render_sub_paragraph(sub_paragraph):
     return _(
         'div',
-        [render_textline(textline) for textline in sorted_textlines]
-        + [_('hr')],
-        {'class': 'textlines'},
+        [
+            _('div', sub_paragraph['text'], {'class': 'sub_paragraph-text'}),
+        ],
+        {'class': 'sub-paragraph'},
+    )
+
+
+def render_paragraph(paragraph):
+    return _(
+        'div',
+        [
+            _('div', paragraph['text'], {'class': 'paragraph-text'}),
+        ]
+        + [
+            render_sub_paragraph(sub_paragraph)
+            for sub_paragraph in paragraph.get('sub_paragraphs', [])
+        ],
+        {'class': 'paragraph'},
+    )
+
+
+def render_subclause(subclause):
+    return _(
+        'div',
+        [
+            _('div', subclause['text'], {'class': 'subclause-text'}),
+        ]
+        + [
+            render_paragraph(paragraph)
+            for paragraph in subclause.get('paragraphs', [])
+        ],
+        {'class': 'subclause'},
+    )
+
+
+def render_clause(clause):
+    return _(
+        'tr',
+        [
+            _(
+                'td',
+                [
+                    _('div', clause['text'], {'class': 'clause-text'}),
+                ]
+                + [
+                    render_subclause(subclause)
+                    for subclause in clause['subclauses']
+                ],
+            ),
+            _(
+                'td',
+                clause['marginal_note'],
+                {'class': 'clause-marginal-note'},
+            ),
+        ],
+        {'class': 'clause'},
+    )
+
+
+def render_clauses(clauses):
+    return _(
+        'table',
+        [_('tbody', [render_clause(clause) for clause in clauses])],
+        {'class': 'clauses'},
     )
 
 
 def convert(json_file, html_file):
     data = JSONFile(json_file).read()
-    html = _('html', [render_textlines(data)], {})
+
+    html = _(
+        'html',
+        [
+            _(
+                'head',
+                [
+                    _(
+                        'link',
+                        None,
+                        dict(rel="stylesheet", href="styles.css"),
+                    ),
+                ],
+            ),
+            _(
+                'body',
+                [
+                    _(
+                        'div',
+                        'Democratic Socialist Republic of Sri Lanka',
+                        {'class': 'title-kicker'},
+                    ),
+                    _('h1', data['name'], {'class': 'title'}),
+                    _(
+                        'h2',
+                        'No. %d of %d' % (data['num'], data['year']),
+                        {'class': 'sub-title'},
+                    ),
+                    render_clauses(data['clauses']),
+                ],
+            ),
+        ],
+        {},
+    )
     html.store(html_file)
 
 
