@@ -1,9 +1,10 @@
-# HIGH
-* Scrape Data Protection Act -> Transform it into MD
+# LOW
 
 
 # HEDIUM
-* Download bill
+* Add Parts
+* Add Preamble etc.
 
 
-# LOW
+# HIGH
+* Schedules
