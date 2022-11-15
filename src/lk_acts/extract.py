@@ -2,7 +2,7 @@ import re
 
 REGEX_CLAUSE = r'(?P<clause_num>\d+)\.'
 REGEX_SUBCLAUSE = r'\((?P<subclause_num>\d+)\).*'
-REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-h])\).*'
+REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-z])\).*'
 REGEX_SUB_PARAGRAPH = r'\((?P<sub_paragraph_num>[ivx]+)\).*'
 
 
@@ -30,6 +30,9 @@ def extract_data(textlines_original):
     textlines_with_metadata = []
     for textline in textlines:
         stripped_text = textline['text'].strip()
+        x1 = (float)(textline['bbox']['x1'])
+        indent = (int)(x1 / 5)
+
         if textline['class_name'] == 'normal-bold':
             result = re.match(REGEX_CLAUSE, stripped_text)
             if result:
@@ -38,23 +41,23 @@ def extract_data(textlines_original):
                 paragraph_num = None
                 sub_paragraph_num = None
 
-        if textline['class_name'] == 'normal':
+        elif textline['class_name'] == 'normal':
             result = re.match(REGEX_SUBCLAUSE, stripped_text)
             if result:
                 subclause_num = (int)(result.groupdict()['subclause_num'])
                 paragraph_num = None
                 sub_paragraph_num = None
-
-        if textline['class_name'] == 'normal':
-            result = re.match(REGEX_PARAGRAPH, stripped_text)
-            if result:
-                paragraph_num = result.groupdict()['paragraph_num']
-                sub_paragraph_num = None
-
-        if textline['class_name'] == 'normal':
-            result = re.match(REGEX_SUB_PARAGRAPH, stripped_text)
-            if result:
-                sub_paragraph_num = result.groupdict()['sub_paragraph_num']
+            else:
+                result = re.match(REGEX_PARAGRAPH, stripped_text)
+                if result and indent < 39:
+                    paragraph_num = result.groupdict()['paragraph_num']
+                    sub_paragraph_num = None
+                else:
+                    result = re.match(REGEX_SUB_PARAGRAPH, stripped_text)
+                    if result:
+                        sub_paragraph_num = result.groupdict()[
+                            'sub_paragraph_num'
+                        ]
 
         textlines_with_metadata.append(
             textline

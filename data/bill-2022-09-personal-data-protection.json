@@ -79,17 +79,7 @@
         },
         {
           "subclause_num": 3,
-          "text": "(3) This Act shall not apply to\u2013",
-          "paragraphs": [
-            {
-              "paragraph_num": "a",
-              "text": "(a) any personal data processed purely for private, domestic or household purposes by an individual; and"
-            },
-            {
-              "paragraph_num": "b",
-              "text": "(b) any data other than personal data."
-            }
-          ]
+          "text": "(3) This Act shall not apply to\u2013 (a) any personal data processed purely for private, domestic or household purposes by an individual; and (b) any data other than personal data."
         }
       ]
     },
@@ -517,55 +507,11 @@
       "subclauses": [
         {
           "subclause_num": 1,
-          "text": "(1) Where a controller\u2013",
-          "paragraphs": [
-            {
-              "paragraph_num": "a",
-              "text": "(a) has not refrained from further processing of personal data under section 14; or"
-            },
-            {
-              "paragraph_num": "b",
-              "text": "(b) has refused to rectify or complete personal data under section 15; or"
-            },
-            {
-              "paragraph_num": "c",
-              "text": "(c) has refused to erase personal data under section 16; or"
-            },
-            {
-              "paragraph_num": "d",
-              "text": "(d) has refused the request of the data subject under section 17(2); or"
-            },
-            {
-              "paragraph_num": "e",
-              "text": "(e) has refused the request to review a decision based solely on automated processing under section 18(1), the data subject may, appeal against such decision in the form, manner and within such period of time as may be prescribed."
-            }
-          ]
+          "text": "(1) Where a controller\u2013 (a) has not refrained from further processing of personal data under section 14; or (b) has refused to rectify or complete personal data under section 15; or (c) has refused to erase personal data under section 16; or (d) has refused the request of the data subject under section 17(2); or (e) has refused the request to review a decision based solely on automated processing under section 18(1), the data subject may, appeal against such decision in the form, manner and within such period of time as may be prescribed."
         },
         {
           "subclause_num": 2,
-          "text": "(2) The Authority may determine whether the \u2013",
-          "paragraphs": [
-            {
-              "paragraph_num": "a",
-              "text": "(a) decision of the controller to refrain from further processing of personal data under section 14 was lawful;"
-            },
-            {
-              "paragraph_num": "b",
-              "text": "(b) decision of the controller to refuse to rectify or complete personal data under section 15 was lawful;"
-            },
-            {
-              "paragraph_num": "c",
-              "text": "(c) decision of the controller to refuse the erasure of personal data under section 16 was lawful;"
-            },
-            {
-              "paragraph_num": "d",
-              "text": "(d) refusal under section 17(2) by the controller was lawful;"
-            },
-            {
-              "paragraph_num": "e",
-              "text": "(e) refusal to review a decision based solely on automated processing under section 18(1) was lawful."
-            }
-          ]
+          "text": "(2) The Authority may determine whether the \u2013 (a) decision of the controller to refrain from further processing of personal data under section 14 was lawful; (b) decision of the controller to refuse to rectify or complete personal data under section 15 was lawful; (c) decision of the controller to refuse the erasure of personal data under section 16 was lawful; (d) refusal under section 17(2) by the controller was lawful; (e) refusal to review a decision based solely on automated processing under section 18(1) was lawful."
         },
         {
           "subclause_num": 3,
@@ -743,21 +689,7 @@
         },
         {
           "subclause_num": 2,
-          "text": "(2) The Authority shall provide for\u2013",
-          "paragraphs": [
-            {
-              "paragraph_num": "a",
-              "text": "(a) the circumstances where the Authority shall be notified of such data breach;"
-            },
-            {
-              "paragraph_num": "b",
-              "text": "(b) the circumstances where the affected data subject shall be notified; and"
-            },
-            {
-              "paragraph_num": "c",
-              "text": "(c) the form, and manner of making such notification, and the information which shall be provided in such notification relating to the data breach, by way of rules made under this Act."
-            }
-          ]
+          "text": "(2) The Authority shall provide for\u2013 (a) the circumstances where the Authority shall be notified of such data breach; (b) the circumstances where the affected data subject shall be notified; and (c) the form, and manner of making such notification, and the information which shall be provided in such notification relating to the data breach, by way of rules made under this Act."
         }
       ]
     },
@@ -852,12 +784,12 @@
           "paragraphs": [
             {
               "paragraph_num": "b",
-              "text": "(b) Any adequacy decision made by the Minister under this subsection shall\u2013",
+              "text": "(b) Any adequacy decision made by the Minister under this subsection shall\u2013"
+            },
+            {
+              "paragraph_num": "i",
+              "text": "(i) be subject to periodic monitoring of the developments in a third country that may affect such decisions and the Minister may review such decision at least every two years; and",
               "sub_paragraphs": [
-                {
-                  "sub_paragraph_num": "i",
-                  "text": "(i) be subject to periodic monitoring of the developments in a third country that may affect such decisions and the Minister may review such decision at least every two years; and"
-                },
                 {
                   "sub_paragraph_num": "ii",
                   "text": "(ii) remain in force until amended or revoked by the Minister in consultation with the authority."
@@ -1036,13 +968,47 @@
             },
             {
               "paragraph_num": "h",
-              "text": "(h) to recognize certification and certifying bodies in relation to personal data protection;",
-              "sub_paragraphs": [
-                {
-                  "sub_paragraph_num": "i",
-                  "text": "(i) to enter into agreements with or engage in any activity, either alone or in conjunction with other apex government or regulatory institutions or international agencies or organizations, responsible for data protection outside Sri Lanka for the purposes of this Act; (j) to acquire, take and hold any property movable or immovable which may become vested in it or by virtue of any purchase, grants, gifts or otherwise and to sell, mortgage, lease, grant, convey, device, assign, exchange or dispose of, any such movable or immovable property; (k) to employ such officers and staff including consultants and advisors subject to such terms and conditions of employment to serve as experts as the Authority may consider appropriate for the Authority to discharge its functions; (l) with the concurrence of the Minister assigned the subject of Finance, to pay such remuneration and other benefits and to establish provident funds or pension schemes as may be determined by the Authority for the benefit of its staff and officers, consultants or advisors with whom a contract of employment or service is entered into by the Authority as the case may be; (m) to invest its funds in such manner as the Authority may deem necessary; (n) to open, operate and close bank accounts; (o) to establish standards in relation to data protection and data storage, data processing, obtaining consent and such other matters as may be necessary for the proper implementation of the provisions of this Act; (p) to receive grants, gifts or donations whether from local or foreign sources: Provided however, the Authority shall obtain prior written approval of the Department of External Resources of the Ministry of the Minister to whom the subject of Finance is assigned, in respect of all foreign grants, gifts or donations; (q) to make rules and issue guidelines and directives in respect of the matters for which rules, guidelines and directives are required to be made or issued under this Act; and (r) to do any other acts as may be necessary or conducive to the attainment of the objects of the Authority under this Act."
-                }
-              ]
+              "text": "(h) to recognize certification and certifying bodies in relation to personal data protection;"
+            },
+            {
+              "paragraph_num": "i",
+              "text": "(i) to enter into agreements with or engage in any activity, either alone or in conjunction with other apex government or regulatory institutions or international agencies or organizations, responsible for data protection outside Sri Lanka for the purposes of this Act;"
+            },
+            {
+              "paragraph_num": "j",
+              "text": "(j) to acquire, take and hold any property movable or immovable which may become vested in it or by virtue of any purchase, grants, gifts or otherwise and to sell, mortgage, lease, grant, convey, device, assign, exchange or dispose of, any such movable or immovable property;"
+            },
+            {
+              "paragraph_num": "k",
+              "text": "(k) to employ such officers and staff including consultants and advisors subject to such terms and conditions of employment to serve as experts as the Authority may consider appropriate for the Authority to discharge its functions;"
+            },
+            {
+              "paragraph_num": "l",
+              "text": "(l) with the concurrence of the Minister assigned the subject of Finance, to pay such remuneration and other benefits and to establish provident funds or pension schemes as may be determined by the Authority for the benefit of its staff and officers, consultants or advisors with whom a contract of employment or service is entered into by the Authority as the case may be;"
+            },
+            {
+              "paragraph_num": "m",
+              "text": "(m) to invest its funds in such manner as the Authority may deem necessary;"
+            },
+            {
+              "paragraph_num": "n",
+              "text": "(n) to open, operate and close bank accounts;"
+            },
+            {
+              "paragraph_num": "o",
+              "text": "(o) to establish standards in relation to data protection and data storage, data processing, obtaining consent and such other matters as may be necessary for the proper implementation of the provisions of this Act;"
+            },
+            {
+              "paragraph_num": "p",
+              "text": "(p) to receive grants, gifts or donations whether from local or foreign sources: Provided however, the Authority shall obtain prior written approval of the Department of External Resources of the Ministry of the Minister to whom the subject of Finance is assigned, in respect of all foreign grants, gifts or donations;"
+            },
+            {
+              "paragraph_num": "q",
+              "text": "(q) to make rules and issue guidelines and directives in respect of the matters for which rules, guidelines and directives are required to be made or issued under this Act; and"
+            },
+            {
+              "paragraph_num": "r",
+              "text": "(r) to do any other acts as may be necessary or conducive to the attainment of the objects of the Authority under this Act."
             }
           ]
         }
@@ -1087,13 +1053,39 @@
             },
             {
               "paragraph_num": "h",
-              "text": "(h) recommend to the Government on all matters relating to data protection;",
-              "sub_paragraphs": [
-                {
-                  "sub_paragraph_num": "i",
-                  "text": "(i) represent the Government internationally on matters relating to data protection with the approval of the Minister; (j) promote studies and educational activities relating to data protection, including organising and conducting seminars, workshops and symposia relating thereto, and supporting other organisations conducting such activities; (k) manage technical co-operation and exchange in the area of data protection with other organisations, including foreign data protection authorities and international or inter-governmental organisations, on its own behalf or on behalf of the government; (l) carry out functions conferred on the Authority under any other written law; (m) undertake research into the use and impact of new technologies on processing of personal data; (n) make rules governing the sharing of personal data between controllers which are public authorities, in accordance with the provisions of this Act, where such data can be shared between the controllers via a secure interoperability platform, including setting in place criteria mandating the sharing of personal data between controllers thereby restricting the duplication of collection and storage of data already available with another controller; (o) make rules in relation to the use of special categories of personal data, the use of personal data for the dissemination of unsolicited messages, in complience with section 27 the use of personal data for profiling of individuals, the use of personal data for automated decision making; and (p) perform such other acts not inconsistent with the provisions of this Act or any other written law, as are necessary for the promotion of the objects of the Authority under this Act."
-                }
-              ]
+              "text": "(h) recommend to the Government on all matters relating to data protection;"
+            },
+            {
+              "paragraph_num": "i",
+              "text": "(i) represent the Government internationally on matters relating to data protection with the approval of the Minister;"
+            },
+            {
+              "paragraph_num": "j",
+              "text": "(j) promote studies and educational activities relating to data protection, including organising and conducting seminars, workshops and symposia relating thereto, and supporting other organisations conducting such activities;"
+            },
+            {
+              "paragraph_num": "k",
+              "text": "(k) manage technical co-operation and exchange in the area of data protection with other organisations, including foreign data protection authorities and international or inter-governmental organisations, on its own behalf or on behalf of the government;"
+            },
+            {
+              "paragraph_num": "l",
+              "text": "(l) carry out functions conferred on the Authority under any other written law;"
+            },
+            {
+              "paragraph_num": "m",
+              "text": "(m) undertake research into the use and impact of new technologies on processing of personal data;"
+            },
+            {
+              "paragraph_num": "n",
+              "text": "(n) make rules governing the sharing of personal data between controllers which are public authorities, in accordance with the provisions of this Act, where such data can be shared between the controllers via a secure interoperability platform, including setting in place criteria mandating the sharing of personal data between controllers thereby restricting the duplication of collection and storage of data already available with another controller;"
+            },
+            {
+              "paragraph_num": "o",
+              "text": "(o) make rules in relation to the use of special categories of personal data, the use of personal data for the dissemination of unsolicited messages, in complience with section 27 the use of personal data for profiling of individuals, the use of personal data for automated decision making; and"
+            },
+            {
+              "paragraph_num": "p",
+              "text": "(p) perform such other acts not inconsistent with the provisions of this Act or any other written law, as are necessary for the promotion of the objects of the Authority under this Act."
             }
           ]
         }
@@ -1114,11 +1106,7 @@
             },
             {
               "paragraph_num": "b",
-              "text": "(b) has contravened or failed to comply with or is likely to contravene or, fails to comply with the provisions of this Act or any rule under paragraph (d), (e) and"
-            },
-            {
-              "paragraph_num": "f",
-              "text": "(f) of section 43, any regulation, guideline or Order made under this Act or under any other written law relating to the processing of personal data, the Authority may, conduct an inquiry in accordance with the procedure as may be prescribed."
+              "text": "(b) has contravened or failed to comply with or is likely to contravene or, fails to comply with the provisions of this Act or any rule under paragraph (d), (e) and (f) of section 43, any regulation, guideline or Order made under this Act or under any other written law relating to the processing of personal data, the Authority may, conduct an inquiry in accordance with the procedure as may be prescribed."
             }
           ]
         },
@@ -1348,33 +1336,7 @@
       "subclauses": [
         {
           "subclause_num": 1,
-          "text": "(1) The Authority shall make rules in respect of\u2013",
-          "paragraphs": [
-            {
-              "paragraph_num": "a",
-              "text": "(a) the appointment, employment and dismissal of various officers and their powers, functions and conduct and the payment of remuneration;"
-            },
-            {
-              "paragraph_num": "b",
-              "text": "(b) the procedure to be observed at the summoning and holding of meetings of the Authority;"
-            },
-            {
-              "paragraph_num": "c",
-              "text": "(c) the management of the affairs of the Authority;"
-            },
-            {
-              "paragraph_num": "d",
-              "text": "(d) the form and manner of exercising rights of data subjects under Part II;"
-            },
-            {
-              "paragraph_num": "e",
-              "text": "(e) criteria for refusal of the request of data subjects under section 17."
-            },
-            {
-              "paragraph_num": "f",
-              "text": "(f) all matters for which, rules are required or authorized to be made under this Act."
-            }
-          ]
+          "text": "(1) The Authority shall make rules in respect of\u2013 (a) the appointment, employment and dismissal of various officers and their powers, functions and conduct and the payment of remuneration; (b) the procedure to be observed at the summoning and holding of meetings of the Authority; (c) the management of the affairs of the Authority; (d) the form and manner of exercising rights of data subjects under Part II; (e) criteria for refusal of the request of data subjects under section 17. (f) all matters for which, rules are required or authorized to be made under this Act."
         },
         {
           "subclause_num": 2,
@@ -1490,23 +1452,8 @@
     {
       "clause_num": 47,
       "marginal_note": "Interpretation",
-      "text": "",
-      "subclauses": [
-        {
-          "subclause_num": "dummy",
-          "text": "47. In this Act, unless the context otherwise requires\u2013 \u201canonymise\u201d in relation to personal data means permanent removal of any personal identifiers from personal data to render any such personal data from being related to a identified or identifiable natural person; \u201cautomated processing\u201d means, processing that does not involve any manual processing; \u201cbiometric data\u201d means, personal data resulting from specific technical processing relating to the physical, physiological or behavioral characteristics of a natural person, which allow or confirm the unique identification of that natural person, including facial images, dactyloscopy data or iris related data; \u201ccertifying bodies\u201d means, the bodies local or foreign that provide certification services relating to the processing of personal data or qualifications of Data Protection Officers; \u201cchild\u201d means, a natural person who is below the age of 18 years; \u201cconsent\u201d means, any freely given, specific, informed and unambiguous indication by way of a written declaration or an affirmative action signifying a data subject\u2019s agreement to the processing of his personal data; \u201ccontroller\u201d means, any natural or legal person, public authority, non-governmental organization, agency or any other body or entity which alone or jointly with others determines the purposes and means of the processing of personal data; \u201ccross-border data flow \u201d means, the movement of personal data out of the territory of Sri Lanka for the purpose of processing personal data in a third country; \u201cdactyloscopy data\u201d means, data relating to fingerprints; \u201cdata concerning health\u201d means, personal data related to the physical or psychological health of a natural person, which includes any information that indicates his health situation or status; \u201cData Protection Authority\u201d means, the designated regulatory body established under section 28 of this Act; \u201cData Protection Officer\u201d means, the person designated or appointed under section 20 of this Act; \u201cdata subject\u201d means, an identified or identifiable natural person, alive or deceased, to whom the personal data relates; \u201cidentifiable natural person\u201d is a natural person who can be identified, directly or indirectly, by reference to any personal data; \u201cencryption\u201d means, the act of ciphering or altering data using mathematical algorithm to make such data unintelligible to unauthorized users; \u201cfinancial data\u201d means, any alpha-numeric identifier or other personal data which can identify an account opened by a data subject, or card or payment instrument issued by a financial institution to a data subject or any personal data regarding the relationship between a financial institution and a data subject, financial status and credit history relating to such data subjects, including data relating to remuneration; \u201cgenetic data\u201d means, personal data relating to the genetic characteristics of a natural person which gives unique information about the physiology or the health of that natural person which results from an analysis of a biological sample or bodily fluid of that natural person; \u201clocal authority\u201d means, a Municipal Council, Urban Council or a Pradeshiya Sabha and includes any authority created or established by or under any law to exercise, perform and discharge powers, duties and functions corresponding or similar to the powers, duties and functions exercised, performed or discharged by any such Council or Sabha; \u201cMinister\u201d means, the Minister assigned the subject of data protection under Article 44 or 45 of the Constitution; \u201cpersonal data\u201d means, any information that can identify a data subject directly or indirectly, by reference to\u2013",
-          "paragraphs": [
-            {
-              "paragraph_num": "a",
-              "text": "(a) an identifier such as a name, an identification number, location data or an online identifier; or"
-            },
-            {
-              "paragraph_num": "b",
-              "text": "(b) one or more factors specific to the physical, physiological, genetic, psychological, economic, cultural or social identity of that individual or natural person. \u201cpersonal data breach\u201d means, any act or omission that results in accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data transmitted, stored or otherwise processed; \u201cpersonal data revealing racial or ethnic origin\u201d means, any personal data including photographs that may indicate or be related to the race or ethnicity of a natural person; \u201cprescribed\u201d means, prescribed by regulations made under this Act; \u201cprocessing\u201d means, any operation performed on personal data including but not limited to collection, storage, preservation, alteration, retrieval, disclosure, transmission, making available, erasure, destruction of, consultation, alignment, combination, or the carrying out of logical or arithmetical operations on personal data; \u201cprocessor\u201d means, a natural or legal person, public authority or other entity established by or under written law, which processes personal data on behalf of the controller; for the avoidance of doubt, a processor shall be a separate entity or person from the controller and not a person subject to any hierarchical control of the controller and excludes processing that is done internally such as one department processing for another, or an employee processing data on behalf of their employer; Illustration: Hospital A, employs a data scientist as an employee to manage its analysis of patient records. The Hospital has decided to store its patient records on a third- party local cloud platform hosted by Company B. Hospital A is the controller, and the Company B is the processor where management of patient records are concerned. The data scientist of the hospital is only an employee of the controller and not a processor. \u201cprofiling\u201d means, processing of personal data to evaluate, analyse or predict aspects concerning that data subject\u2019s performance at work, economic situation, health, personal preferences, interests, credibility, behavior, habits, location or movements; \u201cpseudonymisation\u201d means, the processing of personal data in such a manner that the personal data cannot be used to identify a data subject without the use of additional information and such additional information is kept separately and is subject to technical and organizational measures to ensure that the personal data is not attributed to a data subject; \u201cpublic authority\u201d means, a Ministry, any Department or Provincial Council, local authority, public corporation, statutory body or any institution established by any written law, or a Ministry, any Department or other authority or institution established or created 35 by a Provincial Council, and includes a company registered under the Companies Act, No. 7 of 2007 in which the government or a public corporation or a local authority directly holds fifty per centum or more of the shares of that company; \u201crelevant regulatory or statutory body\u201d means, the regulatory or statutory body established by or under any written law which regulates, authorizes or supervises the controller and includes a Ministry which carries out the supervisory functions for the purpose of sections 26, 27 and 33 of this Act; \u201crecipient\u201d means, a natural or legal person to whom the personal data is disclosed, or a public Authority or any incorporated or unincorporated body to which the personal data is disclosed; \u201cspecial categories of personal data\u201d means, the personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, financial data, the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person\u2019s sex life or sexual orientation, personal data relating to offences, criminal proceedings and convictions, or personal data relating to a child; \u201cSri Lanka\u201d means, the territorial limits of Sri Lanka as stipulated by Article 5 of the Constitution and includes the territorial waters or air space of Sri Lanka, any ship or aircraft registered in Sri Lanka, any location within the premises of a Sri Lankan mission 35 or the residence of the Head of such mission, diplomatic agent or any other member of such mission, situated outside Sri Lanka; or within any premises occupied on behalf of, or under the control of, the Government of Sri Lanka, or any statutory body established in Sri Lanka and situated outside Sri Lanka; \u201cthird country\u201d means, a country prescribed under section 26 for the purpose of cross-border data flow; \u201cthird party\u201d means, a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who are under the direct authority of the controller or processor, are authorized to process personal data; \u201cwritten\u201d includes a document written manually or electronically."
-            }
-          ]
-        }
-      ]
+      "text": "47. In this Act, unless the context otherwise requires\u2013 \u201canonymise\u201d in relation to personal data means permanent removal of any personal identifiers from personal data to render any such personal data from being related to a identified or identifiable natural person; \u201cautomated processing\u201d means, processing that does not involve any manual processing; \u201cbiometric data\u201d means, personal data resulting from specific technical processing relating to the physical, physiological or behavioral characteristics of a natural person, which allow or confirm the unique identification of that natural person, including facial images, dactyloscopy data or iris related data; \u201ccertifying bodies\u201d means, the bodies local or foreign that provide certification services relating to the processing of personal data or qualifications of Data Protection Officers; \u201cchild\u201d means, a natural person who is below the age of 18 years; \u201cconsent\u201d means, any freely given, specific, informed and unambiguous indication by way of a written declaration or an affirmative action signifying a data subject\u2019s agreement to the processing of his personal data; \u201ccontroller\u201d means, any natural or legal person, public authority, non-governmental organization, agency or any other body or entity which alone or jointly with others determines the purposes and means of the processing of personal data; \u201ccross-border data flow \u201d means, the movement of personal data out of the territory of Sri Lanka for the purpose of processing personal data in a third country; \u201cdactyloscopy data\u201d means, data relating to fingerprints; \u201cdata concerning health\u201d means, personal data related to the physical or psychological health of a natural person, which includes any information that indicates his health situation or status; \u201cData Protection Authority\u201d means, the designated regulatory body established under section 28 of this Act; \u201cData Protection Officer\u201d means, the person designated or appointed under section 20 of this Act; \u201cdata subject\u201d means, an identified or identifiable natural person, alive or deceased, to whom the personal data relates; \u201cidentifiable natural person\u201d is a natural person who can be identified, directly or indirectly, by reference to any personal data; \u201cencryption\u201d means, the act of ciphering or altering data using mathematical algorithm to make such data unintelligible to unauthorized users; \u201cfinancial data\u201d means, any alpha-numeric identifier or other personal data which can identify an account opened by a data subject, or card or payment instrument issued by a financial institution to a data subject or any personal data regarding the relationship between a financial institution and a data subject, financial status and credit history relating to such data subjects, including data relating to remuneration; \u201cgenetic data\u201d means, personal data relating to the genetic characteristics of a natural person which gives unique information about the physiology or the health of that natural person which results from an analysis of a biological sample or bodily fluid of that natural person; \u201clocal authority\u201d means, a Municipal Council, Urban Council or a Pradeshiya Sabha and includes any authority created or established by or under any law to exercise, perform and discharge powers, duties and functions corresponding or similar to the powers, duties and functions exercised, performed or discharged by any such Council or Sabha; \u201cMinister\u201d means, the Minister assigned the subject of data protection under Article 44 or 45 of the Constitution; \u201cpersonal data\u201d means, any information that can identify a data subject directly or indirectly, by reference to\u2013 (a) an identifier such as a name, an identification number, location data or an online identifier; or (b) one or more factors specific to the physical, physiological, genetic, psychological, economic, cultural or social identity of that individual or natural person. \u201cpersonal data breach\u201d means, any act or omission that results in accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data transmitted, stored or otherwise processed; \u201cpersonal data revealing racial or ethnic origin\u201d means, any personal data including photographs that may indicate or be related to the race or ethnicity of a natural person; \u201cprescribed\u201d means, prescribed by regulations made under this Act; \u201cprocessing\u201d means, any operation performed on personal data including but not limited to collection, storage, preservation, alteration, retrieval, disclosure, transmission, making available, erasure, destruction of, consultation, alignment, combination, or the carrying out of logical or arithmetical operations on personal data; \u201cprocessor\u201d means, a natural or legal person, public authority or other entity established by or under written law, which processes personal data on behalf of the controller; for the avoidance of doubt, a processor shall be a separate entity or person from the controller and not a person subject to any hierarchical control of the controller and excludes processing that is done internally such as one department processing for another, or an employee processing data on behalf of their employer; Illustration: Hospital A, employs a data scientist as an employee to manage its analysis of patient records. The Hospital has decided to store its patient records on a third- party local cloud platform hosted by Company B. Hospital A is the controller, and the Company B is the processor where management of patient records are concerned. The data scientist of the hospital is only an employee of the controller and not a processor. \u201cprofiling\u201d means, processing of personal data to evaluate, analyse or predict aspects concerning that data subject\u2019s performance at work, economic situation, health, personal preferences, interests, credibility, behavior, habits, location or movements; \u201cpseudonymisation\u201d means, the processing of personal data in such a manner that the personal data cannot be used to identify a data subject without the use of additional information and such additional information is kept separately and is subject to technical and organizational measures to ensure that the personal data is not attributed to a data subject; \u201cpublic authority\u201d means, a Ministry, any Department or Provincial Council, local authority, public corporation, statutory body or any institution established by any written law, or a Ministry, any Department or other authority or institution established or created 35 by a Provincial Council, and includes a company registered under the Companies Act, No. 7 of 2007 in which the government or a public corporation or a local authority directly holds fifty per centum or more of the shares of that company; \u201crelevant regulatory or statutory body\u201d means, the regulatory or statutory body established by or under any written law which regulates, authorizes or supervises the controller and includes a Ministry which carries out the supervisory functions for the purpose of sections 26, 27 and 33 of this Act; \u201crecipient\u201d means, a natural or legal person to whom the personal data is disclosed, or a public Authority or any incorporated or unincorporated body to which the personal data is disclosed; \u201cspecial categories of personal data\u201d means, the personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, financial data, the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person\u2019s sex life or sexual orientation, personal data relating to offences, criminal proceedings and convictions, or personal data relating to a child; \u201cSri Lanka\u201d means, the territorial limits of Sri Lanka as stipulated by Article 5 of the Constitution and includes the territorial waters or air space of Sri Lanka, any ship or aircraft registered in Sri Lanka, any location within the premises of a Sri Lankan mission 35 or the residence of the Head of such mission, diplomatic agent or any other member of such mission, situated outside Sri Lanka; or within any premises occupied on behalf of, or under the control of, the Government of Sri Lanka, or any statutory body established in Sri Lanka and situated outside Sri Lanka; \u201cthird country\u201d means, a country prescribed under section 26 for the purpose of cross-border data flow; \u201cthird party\u201d means, a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who are under the direct authority of the controller or processor, are authorized to process personal data; \u201cwritten\u201d includes a document written manually or electronically.",
+      "subclauses": []
     },
     {
       "clause_num": 48,
@@ -1580,6 +1527,26 @@
                   "text": "CONDITIONS FOR PROCESSING SPECIAL CATEGORIES OF PERSONAL DATA"
                 }
               ]
+            },
+            {
+              "paragraph_num": "i",
+              "text": ""
+            },
+            {
+              "paragraph_num": "j",
+              "text": ""
+            },
+            {
+              "paragraph_num": "k",
+              "text": ""
+            },
+            {
+              "paragraph_num": "l",
+              "text": ""
+            },
+            {
+              "paragraph_num": "m",
+              "text": ""
             }
           ]
         }

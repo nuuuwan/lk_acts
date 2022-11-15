@@ -13,18 +13,18 @@ td {
 
 .title-kicker {
   font-size: 75%;
-  color: #ccc;
+  color: gray;
 }
 
 .title {
   margin-top: 6px;
   margin-bottom: 6px;
-  color: #888;
+  color: darkgreen;
 }
 
 .sub-title {
   margin: 0;
-  color: #ccc;
+  color: darkgreen;
 }
 
 .clause {
@@ -34,7 +34,7 @@ td {
 .clause-marginal-note {
   width: 100px;
   font-size: 75%;
-  color: maroon;
+  color: orange;
   font-weight: normal;
 }
 
@@ -44,17 +44,27 @@ td {
   border-radius: 12px;
 }
 
+.clause-text {
+  color: maroon;
+}
+
 .subclause {
   margin: 24px;
   font-weight: normal;
 }
 
+.subclause-text {
+  color: maroon;
+}
+
 .paragraph {
   margin: 24px;
   font-weight: normal;
+  color: black;
 }
 
 .sub-paragraph {
   margin: 24px;
   font-weight: normal;
+  color: gray;
 }
