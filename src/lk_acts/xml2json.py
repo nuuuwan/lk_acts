@@ -120,13 +120,18 @@ def parse(tree):
     return parse_pages(tree.getroot())
 
 
-def convert(xml_file, json_file):
+def convert(xml_file, json_file, prefix_data):
     data = parse(ET.parse(xml_file))
-    JSONFile(json_file).write(data)
+    JSONFile(json_file).write(prefix_data | data)
 
 
 if __name__ == '__main__':
     convert(
         xml_file='data/bill-2022-09-personal-data-protection.xml',
         json_file='data/bill-2022-09-personal-data-protection.json',
+        prefix_data=dict(
+            name='Personal Data Protection',
+            year=2022,
+            num=9,
+        ),
     )

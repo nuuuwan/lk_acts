@@ -136,14 +136,17 @@ def fold_clauses(textlines_with_metadata):
             else:
                 l1_textlines += l2_textlines
 
-        clause = dict(
-            clause_num=l1,
-            marginal_note=join_textlines(clause_to_marginal_note.get(l1, '')),
-            text=join_textlines(l1_textlines),
-            subclauses=subclauses,
-        )
-        if subclauses:
-            clause['subclauses'] = subclauses
+        if l1:
+            clause = dict(
+                clause_num=l1,
+                marginal_note=join_textlines(
+                    clause_to_marginal_note.get(l1, '')
+                ),
+                text=join_textlines(l1_textlines),
+                subclauses=subclauses,
+            )
+            if subclauses:
+                clause['subclauses'] = subclauses
 
-        clauses.append(clause)
+            clauses.append(clause)
     return clauses
