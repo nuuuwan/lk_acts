@@ -17,7 +17,7 @@ def join_textlines(textlines):
 
 
 def cmp_textlines(textline):
-    return textline['i_page'] * 1_000_000 - (int)(textline['bbox']['y1'])
+    return textline['i_page'] * 1_000_000 - (int)(textline['bbox']['y2'])
 
 
 def extract_data(textlines_original):

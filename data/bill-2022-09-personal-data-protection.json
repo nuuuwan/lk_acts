@@ -5,7 +5,7 @@
   "clauses": [
     {
       "clause_num": 1,
-      "marginal_note": "and date of operation",
+      "marginal_note": "Short Title and date of operation",
       "text": "1.",
       "subclauses": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "clause_num": 5,
-      "marginal_note": "Obligation to process personal date in a lawful manner Obligation to",
+      "marginal_note": "Obligation to process personal date in a lawful manner",
       "text": "",
       "subclauses": [
         {
@@ -145,7 +145,7 @@
     },
     {
       "clause_num": 6,
-      "marginal_note": "define a purpose for personal data processing",
+      "marginal_note": "Obligation to define a purpose for personal data processing",
       "text": "6.",
       "subclauses": [
         {
@@ -268,7 +268,7 @@
     },
     {
       "clause_num": 12,
-      "marginal_note": "Accountability in the processing of personal data Right of",
+      "marginal_note": "Accountability in the processing of personal data",
       "text": "12.",
       "subclauses": [
         {
@@ -317,7 +317,7 @@
     },
     {
       "clause_num": 13,
-      "marginal_note": "access to personal data Right of",
+      "marginal_note": "Right of access to personal data",
       "text": "13.",
       "subclauses": [
         {
@@ -332,7 +332,7 @@
     },
     {
       "clause_num": 14,
-      "marginal_note": "withdrawal of the consent and the right to object to processing Right to",
+      "marginal_note": "Right of withdrawal of the consent and the right to object to processing",
       "text": "14.",
       "subclauses": [
         {
@@ -347,13 +347,13 @@
     },
     {
       "clause_num": 15,
-      "marginal_note": "rectification or completion",
+      "marginal_note": "Right to rectification or completion",
       "text": "15. Every data subject shall have the right to request a controller in writing to rectify or complete the personal data relating to such data subject which is either inaccurate or incomplete, and the controller shall, upon such a written request made by the data subject, rectify or complete the personal data without undue delay subject to the provisions of section 17: Provided however, the provisions of this section shall not impose any obligation on a controller to collect and process any additional personal data that is not required for the purpose of processing: Provided further, where a controller is required to maintain personal data for the evidentiary purposes under any written law or on an order of a competent court, the controller shall refrain from further processing such personal data without rectifying.",
       "subclauses": []
     },
     {
       "clause_num": 16,
-      "marginal_note": "Right to erasure Grant or",
+      "marginal_note": "Right to erasure",
       "text": "",
       "subclauses": [
         {
@@ -378,7 +378,7 @@
     },
     {
       "clause_num": 17,
-      "marginal_note": "refusal of rectification, completion, erasure or refrain from further processing Automated",
+      "marginal_note": "Grant or refusal of rectification, completion, erasure or refrain from further processing",
       "text": "17.",
       "subclauses": [
         {
@@ -479,7 +479,7 @@
     },
     {
       "clause_num": 18,
-      "marginal_note": "individual decision making Right of",
+      "marginal_note": "Automated individual decision making",
       "text": "18.",
       "subclauses": [
         {
@@ -512,7 +512,7 @@
     },
     {
       "clause_num": 19,
-      "marginal_note": "appeal of the data subjects to the Authority and the process of determination of such appeal",
+      "marginal_note": "Right of appeal of the data subjects to the Authority and the process of determination of such appeal",
       "text": "19.",
       "subclauses": [
         {
@@ -656,7 +656,7 @@
     },
     {
       "clause_num": 21,
-      "marginal_note": "Additional obligations of the controller\u2019s Additional",
+      "marginal_note": "Additional obligations of the controller\u2019s",
       "text": "21.",
       "subclauses": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "clause_num": 22,
-      "marginal_note": "obligations of the processors",
+      "marginal_note": "Additional obligations of the processors",
       "text": "22.",
       "subclauses": [
         {
@@ -763,7 +763,7 @@
     },
     {
       "clause_num": 24,
-      "marginal_note": "Personal data protection impact assessments Measures to",
+      "marginal_note": "Personal data protection impact assessments",
       "text": "24.",
       "subclauses": [
         {
@@ -804,7 +804,7 @@
     },
     {
       "clause_num": 25,
-      "marginal_note": "mitigate risks of harm and the requirement for prior consultation Cross-border",
+      "marginal_note": "Measures to mitigate risks of harm and the requirement for prior consultation",
       "text": "25.",
       "subclauses": [
         {
@@ -839,7 +839,7 @@
     },
     {
       "clause_num": 26,
-      "marginal_note": "data flow Use of",
+      "marginal_note": "Cross-border data flow",
       "text": "26.",
       "subclauses": [
         {
@@ -888,7 +888,7 @@
     },
     {
       "clause_num": 27,
-      "marginal_note": "personal data on direct marketing",
+      "marginal_note": "Use of personal data on direct marketing",
       "text": "27.",
       "subclauses": [
         {
@@ -929,7 +929,7 @@
     },
     {
       "clause_num": 28,
-      "marginal_note": "Designation of the Authority Objects of",
+      "marginal_note": "Designation of the Authority",
       "text": "28.",
       "subclauses": [
         {
@@ -970,7 +970,7 @@
     },
     {
       "clause_num": 29,
-      "marginal_note": "the Authority",
+      "marginal_note": "Objects of the Authority",
       "text": "",
       "subclauses": [
         {
@@ -999,7 +999,7 @@
     },
     {
       "clause_num": 30,
-      "marginal_note": "Powers of the Authority Duties and",
+      "marginal_note": "Powers of the Authority",
       "text": "",
       "subclauses": [
         {
@@ -1050,7 +1050,7 @@
     },
     {
       "clause_num": 31,
-      "marginal_note": "functions of the Authority",
+      "marginal_note": "Duties and functions of the Authority",
       "text": "",
       "subclauses": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "clause_num": 32,
-      "marginal_note": "Directives made by the Authority Imposition of",
+      "marginal_note": "Directives made by the Authority",
       "text": "32.",
       "subclauses": [
         {
@@ -1144,7 +1144,7 @@
     },
     {
       "clause_num": 33,
-      "marginal_note": "penalties",
+      "marginal_note": "Imposition of penalties",
       "text": "33.",
       "subclauses": [
         {
@@ -1246,7 +1246,7 @@
     },
     {
       "clause_num": 35,
-      "marginal_note": "Exemptions, restrictions or derogations Financial",
+      "marginal_note": "Exemptions, restrictions or derogations",
       "text": "",
       "subclauses": [
         {
@@ -1279,7 +1279,7 @@
     },
     {
       "clause_num": 36,
-      "marginal_note": "year and Audit of Accounts",
+      "marginal_note": "Financial year and Audit of Accounts",
       "text": "36.",
       "subclauses": [
         {
@@ -1294,19 +1294,19 @@
     },
     {
       "clause_num": 37,
-      "marginal_note": "Power to borrow Investment",
+      "marginal_note": "Power to borrow",
       "text": "37. The Authority may with the consent of the Minister given in concurrence with the Minister assigned the subject of Finance borrow temporarily by way of overdraft or otherwise, such sums of money as the Authority may require for defraying any expenditure incurred by it in the exercise, performance and discharge of its powers, duties and functions under this Act: Provided that, the aggregate of the amounts outstanding in respect of any loans raised by the Authority under this section, shall not exceed such sum as may be determined by the Minister in consultation with the Minister assigned the subject of Finance.",
       "subclauses": []
     },
     {
       "clause_num": 38,
-      "marginal_note": "of money of the Authority Protection of",
+      "marginal_note": "Investment of money of the Authority",
       "text": "38. The Authority may invest its money in such manner as the Authority may determine or use any immovable property that is in its possession as collateral for the purpose of satisfying any liabilities incurred by it, in accordance with such directions that may be issued by the Minister assigned the subject of Finance for that purpose.",
       "subclauses": []
     },
     {
       "clause_num": 39,
-      "marginal_note": "officers of the Authority from suit or prosecution All officers",
+      "marginal_note": "Protection of officers of the Authority from suit or prosecution",
       "text": "39.",
       "subclauses": [
         {
@@ -1325,25 +1325,25 @@
     },
     {
       "clause_num": 40,
-      "marginal_note": "and servants of the Authority deemed to be public servants for the purposes of Penal Code Authority",
+      "marginal_note": "All officers and servants of the Authority deemed to be public servants for the purposes of Penal Code",
       "text": "40. All officers and servants of the Authority, shall be deemed to be public servants within the meaning and for the purposes of Penal Code (Chapter 19).",
       "subclauses": []
     },
     {
       "clause_num": 41,
-      "marginal_note": "deemed to be as cheduled institution for purposes of Bribery Act Directions of",
+      "marginal_note": "Authority deemed to be as cheduled institution for purposes of Bribery Act",
       "text": "41. The Authority shall be deemed to be a Scheduled institution within the meaning of the Bribery Act, (Chapter 26) and the provisions of that Act shall be construed accordingly.",
       "subclauses": []
     },
     {
       "clause_num": 42,
-      "marginal_note": "the Cabinet of Ministers Rules",
+      "marginal_note": "Directions of the Cabinet of Ministers",
       "text": "42. The Minister may from time to time, convey relevant directions taken by the Cabinet of Ministers in connection with the exercise, performance and discharge of its powers, duties and functions under this Act or under any other written law.",
       "subclauses": []
     },
     {
       "clause_num": 43,
-      "marginal_note": "",
+      "marginal_note": "Rules",
       "text": "43.",
       "subclauses": [
         {
@@ -1453,7 +1453,7 @@
     },
     {
       "clause_num": 45,
-      "marginal_note": "Official Secrecy Removal of",
+      "marginal_note": "Official Secrecy",
       "text": "",
       "subclauses": [
         {
@@ -1474,7 +1474,7 @@
     },
     {
       "clause_num": 46,
-      "marginal_note": "difficulties Interpretation",
+      "marginal_note": "Removal of difficulties",
       "text": "46.",
       "subclauses": [
         {
@@ -1489,7 +1489,7 @@
     },
     {
       "clause_num": 47,
-      "marginal_note": "",
+      "marginal_note": "Interpretation",
       "text": "",
       "subclauses": [
         {
