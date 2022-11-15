@@ -145,6 +145,13 @@ def fold_clauses(textlines_with_metadata):
                 text=join_textlines(l1_textlines),
                 subclauses=subclauses,
             )
+            assert clause['text'].split('.')[0] == str(
+                clause['clause_num']
+            ), [
+                clause['text'],
+                clause['clause_num'],
+            ]
+
             if subclauses:
                 clause['subclauses'] = subclauses
 
