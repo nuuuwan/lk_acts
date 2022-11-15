@@ -63,22 +63,39 @@ def parse_textline(textline):
     )
 
 
+def is_valid_textline(data_textline):
+    stripped_text = data_textline['text'].strip()
+    x1 = (int)(data_textline['bbox']['x1'])
+    indent = (int)(x1 / 10)
+    if indent == 22 and stripped_text == 'Personal Data Protection':
+        return False
+
+    if indent in [13, 14] and stripped_text in ['5', '10', '15', '20', '25', '30']:
+        return False
+
+    if indent in [15, 39] and len(stripped_text) <= 3:
+        return False
+
+    return True
+
 def parse_textbox(textbox):
     textlines = []
     for textline in textbox:
-        textlines.append(parse_textline(textline))
-    return dict(textlines=textlines)
+        data_textline = parse_textline(textline)
+        if valid_textline(data_textline):
+            textlines.append(data_textline)
+    return textlines
 
 
 def parse_page(i_page, page):
     assert page.tag == 'page', page.tag
-    textboxes = []
+    textlines = []
     for child in page:
         if child.tag == 'textbox':
-            textboxes.append(parse_textbox(child))
+            textlines += parse_textbox(child)
     return dict(
-        i_page=i_page,
-        textboxes=textboxes,
+        page_num=i_page + 1,
+        textlines=textlines,
     )
 
 
