@@ -1,9 +1,9 @@
 import re
 
-REGEX_CLAUSE = '(?P<clause_num>\\d+)\\.'
-REGEX_SUBCLAUSE = '\\((?P<subclause_num>\\d+)\\)\\s.*'
-REGEX_PARAGRAPH = '\\((?P<paragraph_num>[ivx]+)\\)\\s.*'
-REGEX_SUB_PARAGRAPH = '\\((?P<sub_paragraph_num>[a-h])\\)\\s.*'
+REGEX_CLAUSE = r'(?P<clause_num>\d+)\.'
+REGEX_SUBCLAUSE = r'\((?P<subclause_num>\d+)\).*'
+REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-h])\).*'
+REGEX_SUB_PARAGRAPH = r'\((?P<sub_paragraph_num>[ivx]+)\).*'
 
 
 def clean_textline(x):
@@ -16,7 +16,12 @@ def join_textlines(textlines):
     return s
 
 
-def extract_data(textlines):
+def cmp_textlines(textline):
+    return textline['i_page'] * 1_000_000 - (int)(textline['bbox']['y1'])
+
+
+def extract_data(textlines_original):
+    textlines = sorted(textlines_original, key=cmp_textlines)
 
     clause_num = None
     subclause_num = None
@@ -97,16 +102,20 @@ def fold_clauses(textlines_with_metadata):
     for l1 in idx:
         l1_textlines = []
         subclauses = []
+
         for l2 in idx[l1]:
             paragraphs = []
             l2_textlines = []
+
             for l3 in idx[l1][l2]:
-                subparagraphs = []
+                sub_paragraphs = []
                 l3_textlines = []
                 for l4 in idx[l1][l2][l3]:
                     textlines = idx[l1][l2][l3][l4]
                     if l4:
-                        subparagraphs.append(
+                        if l1 == 5:
+                            print(l1, l2, l3, l4)
+                        sub_paragraphs.append(
                             dict(
                                 sub_paragraph_num=l4,
                                 text=join_textlines(textlines),
@@ -120,11 +129,13 @@ def fold_clauses(textlines_with_metadata):
                         paragraph_num=l3,
                         text=join_textlines(l3_textlines),
                     )
-                    if subparagraphs:
-                        paragraph['subparagraphs'] = subparagraphs
+                    if sub_paragraphs:
+                        paragraph['sub_paragraphs'] = sub_paragraphs
                     paragraphs.append(paragraph)
                 else:
                     l2_textlines += l3_textlines
+            if len(paragraphs) > 0 and l2 is None:
+                l2 = 'dummy'
             if l2:
                 subclause = dict(
                     subclause_num=l2,
@@ -145,12 +156,12 @@ def fold_clauses(textlines_with_metadata):
                 text=join_textlines(l1_textlines),
                 subclauses=subclauses,
             )
-            assert clause['text'].split('.')[0] == str(
-                clause['clause_num']
-            ), [
-                clause['text'],
-                clause['clause_num'],
-            ]
+            # assert clause['text'].split('.')[0] == str(
+            #     clause['clause_num']
+            # ), [
+            #     clause['text'],
+            #     clause['clause_num'],
+            # ]
 
             if subclauses:
                 clause['subclauses'] = subclauses
