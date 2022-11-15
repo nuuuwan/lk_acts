@@ -24,7 +24,7 @@ def parse_text(text):
     return text
 
 
-def parse_textline(textline):
+def parse_textline(i_page, textline):
     font_family_to_n = {}
     font_size_to_n = {}
     inner_text = ''
@@ -51,14 +51,15 @@ def parse_textline(textline):
     ]
 
     return dict(
-        font_size=size,
-        class_name=class_name,
+        i_page=i_page,
         bbox=dict(
             x1=x1,
             y1=y1,
             x2=x2,
             y2=y2,
         ),
+        font_size=size,
+        class_name=class_name,        
         text=inner_text,
     )
 
@@ -78,11 +79,11 @@ def is_valid_textline(data_textline):
 
     return True
 
-def parse_textbox(textbox):
+def parse_textbox(i_page, textbox):
     textlines = []
     for textline in textbox:
-        data_textline = parse_textline(textline)
-        if valid_textline(data_textline):
+        data_textline = parse_textline(i_page, textline)
+        if is_valid_textline(data_textline):
             textlines.append(data_textline)
     return textlines
 
@@ -92,21 +93,16 @@ def parse_page(i_page, page):
     textlines = []
     for child in page:
         if child.tag == 'textbox':
-            textlines += parse_textbox(child)
-    return dict(
-        page_num=i_page + 1,
-        textlines=textlines,
-    )
+            textlines += parse_textbox(i_page, child)
+    return textlines
 
 
 def parse_pages(pages):
     assert pages.tag == 'pages', pages.tag
-    data_pages = []
+    data = []
     for i_page, page in enumerate(pages):
-        data_pages.append(parse_page(i_page, page))
-    return dict(
-        pages=data_pages,
-    )
+        data += parse_page(i_page, page)
+    return data
 
 
 def parse(tree):
