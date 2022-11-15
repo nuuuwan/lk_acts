@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  width: 90%;
+  margin: auto;
+}
+
+td {
+  vertical-align: top;
+  padding-bottom: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.title-kicker {
+  font-size: 75%;
+}
+
+.title {
+  margin-top: 6px;
+}
+
+.sub-title {
+  margin-top: 6px;
+}
+
+.clause {
+
+}
+
+.clause-marginal-note {
+  width: 100px;
+  font-size: 75%;
+  color: maroon;
+  font-weight: normal;
+}
+
+.subclause {
+  margin: 24px;
+  font-weight: normal;
+}
+
+.paragraph {
+  margin: 24px;
+  font-weight: normal;
+}
+
+.sub-paragraph {
+  margin: 24px;
+  font-weight: normal;
+}
