@@ -2,12 +2,12 @@ import os
 
 from utils import www
 
-from lk_acts._constants import DIR_DOCS
+from lk_acts._constants import DIR_DATA
 from lk_acts._utils import log
 
 
 def get_file(label):
-    return os.path.join(DIR_DOCS, f'{label}.pdf')
+    return os.path.join(DIR_DATA, f'{label}.pdf')
 
 
 def download_bill(url, label):

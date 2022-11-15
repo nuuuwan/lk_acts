@@ -1,1 +1,1 @@
-DIR_DOCS = 'docs'
+DIR_DATA = 'data'
