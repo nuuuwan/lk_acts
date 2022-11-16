@@ -78,6 +78,11 @@ def convert(config):
     textlines = JSONFile(json_textlines_file).read()
     textlines_with_metadata = add_metadata(textlines)
 
+    textlines_with_metadata_file = get_file_name(
+        config, 'textlines_with_metadata.json'
+    )
+    JSONFile(textlines_with_metadata_file).write(textlines_with_metadata)
+
     intro_data = extract_intro_data(textlines_with_metadata)
 
     data = intro_data | dict(
