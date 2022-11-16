@@ -1,5 +1,9 @@
 import re
 
+from utils import JSONFile
+
+from lk_acts._utils import get_file_name, log
+
 REGEX_SECTION = r'(?P<section_num>\d+)\.'
 REGEX_SUBSECTION = r'\((?P<subsection_num>\d+)\).*'
 REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-z])\).*'
@@ -185,3 +189,12 @@ def fold_sections(textlines_with_metadata):
 
             sections.append(section)
     return sections
+
+
+def convert(config):
+    json_textlines_file = get_file_name(config, 'textlines.json')
+    json_file = get_file_name(config, 'json')
+    textlines = JSONFile(json_textlines_file).read()
+    data = extract_data(textlines)
+    JSONFile(json_file).write(config | data)
+    log.info(f'{json_textlines_file} -> {json_file}')
