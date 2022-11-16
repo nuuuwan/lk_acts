@@ -150,6 +150,8 @@ def convert(config):
                     _('p', data['long_title'], {'class': 'long-title'}),
                     _('p', data['presented_by'], {'class': 'presented-by'}),
                     _('p', date_published_str, {'class': 'date-published'}),
+                    _('h3', 'Preamble', {'class': 'preamble-title'}),
+                    _('p', data['preamble'], {'class': 'preamble'}),
                     render_sections(data['sections']),
                 ],
             ),
