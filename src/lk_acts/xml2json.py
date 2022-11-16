@@ -108,24 +108,25 @@ def parse_page(i_page, page):
     return textlines
 
 
-def parse_pages(pages):
+def parse_pages(pages, json_textlines_file):
     assert pages.tag == 'pages', pages.tag
     textlines = []
     for i_page, page in enumerate(pages):
         textlines += parse_page(i_page, page)
+
+    JSONFile(json_textlines_file).write(textlines)
     data = extract.extract_data(textlines)
     return data
 
 
-def parse(tree):
-    return parse_pages(tree.getroot())
-
-
 def convert(config):
     xml_file = get_file_name(config, 'xml')
+    json_textlines_file = get_file_name(config, 'textlines.json')
     json_file = get_file_name(config, 'json')
 
-    data = parse(ET.parse(xml_file))
+    tree = ET.parse(xml_file)
+    data = parse_pages(tree.getroot(), json_textlines_file)
+
     JSONFile(json_file).write(config | data)
     log.info(f'{xml_file} -> {json_file}')
 
