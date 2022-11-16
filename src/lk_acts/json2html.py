@@ -154,10 +154,3 @@ def convert(config):
     )
     html.store(html_file)
     log.info(f'{json_file} -> {html_file}')
-
-
-if __name__ == '__main__':
-    from lk_acts.METADATA_LIST import METADATA_LIST
-
-    config = METADATA_LIST[0]
-    convert(config)

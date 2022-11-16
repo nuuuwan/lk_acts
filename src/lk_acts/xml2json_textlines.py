@@ -125,10 +125,3 @@ def convert(config):
 
     JSONFile(json_textlines_file).write(textlines)
     log.info(f'{xml_file} -> {json_textlines_file}')
-
-
-if __name__ == '__main__':
-    from lk_acts.METADATA_LIST import METADATA_LIST
-
-    config = METADATA_LIST[0]
-    convert(config)

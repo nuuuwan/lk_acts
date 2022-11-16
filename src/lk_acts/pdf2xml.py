@@ -20,11 +20,3 @@ def convert(config):
     )
     os.system(cmd)
     log.info(f'{pdf_file} ({page_nos}) -> {xml_file}')
-
-
-if __name__ == '__main__':
-
-    from lk_acts.METADATA_LIST import METADATA_LIST
-
-    config = METADATA_LIST[0]
-    convert(config)
