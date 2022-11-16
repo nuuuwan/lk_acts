@@ -3,8 +3,9 @@ import re
 from utils import JSONFile
 
 from lk_acts._utils import get_file_name, log
-from lk_acts.json_textlines2json._body import extract_parts
 from lk_acts.json_textlines2json._intro import extract_intro_data
+from lk_acts.json_textlines2json._parts import extract_parts
+from lk_acts.json_textlines2json._schedules import extract_schedules
 
 REGEX_PART = r'PART (?P<part_num>[IVX]+)'
 REGEX_SECTION = r'(?P<section_num>\d+)\.'
@@ -116,6 +117,7 @@ def convert(config):
 
     data = intro_data | dict(
         parts=extract_parts(textlines_with_metadata),
+        schedules=extract_schedules(textlines_with_metadata),
     )
 
     JSONFile(json_file).write(config | data)

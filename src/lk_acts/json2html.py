@@ -145,6 +145,30 @@ def render_parts(parts):
     )
 
 
+def render_schedule(schedule):
+    schedule_title = (
+        'Schedule ' + schedule['schedule_num']
+        if schedule['schedule_num']
+        else "..."
+    )
+    return _(
+        'div',
+        [
+            _('h3', schedule_title, {'class': 'schedule-title'}),
+            render_sections(schedule['sections']),
+        ],
+        {'class': 'schedule'},
+    )
+
+
+def render_schedules(schedules):
+    return _(
+        'div',
+        [render_schedule(schedule) for schedule in schedules],
+        {'class': 'schedules'},
+    )
+
+
 def render_lines(lines):
     return list(
         map(
@@ -216,6 +240,7 @@ def convert(config):
                     ),
                     render_intro(data),
                     render_parts(data['parts']),
+                    render_schedules(data['schedules']),
                 ],
             ),
         ],

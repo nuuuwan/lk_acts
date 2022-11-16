@@ -3462,5 +3462,674 @@
         }
       ]
     }
+  ],
+  "schedules": [
+    {
+      "schedule_num": "I",
+      "textlines": [],
+      "sections": [
+        {
+          "section_num": "dummy",
+          "marginal_note": "",
+          "textlines": [],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a)",
+                    "the data subject has given consent to the processing of his",
+                    "personal data; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "processing is necessary for the performance of a contract to",
+                    "which the data subject is a party or in order to take steps at",
+                    "the request of the data subject prior to entering into a",
+                    "contract; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c)",
+                    "processing is necessary for compliance with a legal",
+                    "obligation to which the controller or processor is subject to",
+                    "under any written law; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "d",
+                  "textlines": [
+                    "(d)",
+                    "processing is necessary to respond to an emergency that",
+                    "threatens the life, health or safety of the data subject or",
+                    "another natural person; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "e",
+                  "textlines": [
+                    "(e)",
+                    "processing is necessary for the performance of a task carried",
+                    "out in the public interest or in the exercise of powers,",
+                    "functions or duties conferred, imposed or assigned on the",
+                    "controller or processor by or under any written law or",
+                    "including any circular, direction or code issued by the",
+                    "government; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "f",
+                  "textlines": [
+                    "(f)",
+                    "processing is necessary for the purposes of the legitimate",
+                    "interests pursued by the controller or by a third party,",
+                    "except where such interests are overridden by the interests",
+                    "of the data subject which require protection of personal",
+                    "data, in particular where the data subject is a child."
+                  ]
+                },
+                {
+                  "paragraph_num": "g",
+                  "textlines": [
+                    "(g)",
+                    "for the purpose of item (e) of this Schedule, \"public interest\"",
+                    "includes-"
+                  ],
+                  "sub_paragraphs": [
+                    {
+                      "sub_paragraph_num": "i",
+                      "textlines": [
+                        "(i) processing of personal data is necessary for health",
+                        "purposes such as public health and social protection",
+                        "and the management of health care services;"
+                      ]
+                    },
+                    {
+                      "sub_paragraph_num": "ii",
+                      "textlines": [
+                        "(ii) processing of personal data is necessary for the",
+                        "control of communicable deceases and other serious",
+                        "threats to health;"
+                      ]
+                    },
+                    {
+                      "sub_paragraph_num": "iii",
+                      "textlines": [
+                        "(iii) processing of personal data is necessary by official",
+                        "authorities for achieving the purposes or objects laid",
+                        "down by law."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "paragraph_num": "h",
+                  "textlines": [
+                    "(h)",
+                    "for the purpose of item (f) of this Schedule, \"legitimate",
+                    "interest\" includes-"
+                  ]
+                },
+                {
+                  "paragraph_num": "i",
+                  "textlines": [
+                    "(i) processing in situations where the data subject is a",
+                    "client or in the service of the controller;"
+                  ],
+                  "sub_paragraphs": [
+                    {
+                      "sub_paragraph_num": "ii",
+                      "textlines": [
+                        "(ii) whether a data subject reasonably expects at the time",
+                        "and in the context of the collection of the personal",
+                        "data that processing for that purpose may take place;"
+                      ]
+                    },
+                    {
+                      "sub_paragraph_num": "iii",
+                      "textlines": [
+                        "(iii) processing of personal data is strictly necessary for",
+                        "the purposes of preventing fraud;"
+                      ]
+                    },
+                    {
+                      "sub_paragraph_num": "iv",
+                      "textlines": [
+                        "(iv) processing of personal data to the extent strictly",
+                        "necessary and proportionate for the purposes of",
+                        "ensuring network and information security.",
+                        "(Section 5 (b))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule_num": "II",
+      "textlines": [],
+      "sections": [
+        {
+          "section_num": "dummy",
+          "marginal_note": "",
+          "textlines": [],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a)",
+                    "the data subject has given consent, to the processing of",
+                    "special categories of personal data for one or more purposes",
+                    "specified by the controller at the time of processing, unless",
+                    "any other written law prohibits the processing of such",
+                    "personal data notwithstanding the consent of the data subject",
+                    "concerned. In the case of a child, consent shall mean the",
+                    "consent of the parent or legal guardian of such child; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "processing is necessary for the purposes of carrying out the",
+                    "obligations of the controller and exercising of the rights of",
+                    "the data subject, in the field of employment, social security",
+                    "including pension, and for public health purposes ensuring",
+                    "public safety, monitoring and public alert systems relating",
+                    "to impending health or other emergencies, the prevention",
+                    "or control of communicable diseases and other serious",
+                    "threats to public health and the management of public health-",
+                    "care services in so far as it is prescribed by any written law",
+                    "providing for appropriate safeguards for rights of the data",
+                    "subject; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c)",
+                    "processing is necessary to respond to an emergency that",
+                    "threatens the life, health or safety of the data subject or",
+                    "another natural person where the data subject is physically",
+                    "or legally incapable of giving consent; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "d",
+                  "textlines": [
+                    "(d)",
+                    "processing relates to personal data which is manifestly made",
+                    "public by the data subject; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "e",
+                  "textlines": [
+                    "(e)",
+                    "processing is necessary for the establishment, exercise or",
+                    "defence of legal claims before a court or tribunal or such",
+                    "similar forum, or whenever courts are acting in their judicial",
+                    "capacity; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "f",
+                  "textlines": [
+                    "(f)",
+                    "processing is necessary for any purpose as prescribed by",
+                    "any written law which shall be necessary and proportionate",
+                    "to the aim pursued whilst providing suitable and specific",
+                    "measures to safeguard the rights and freedoms of the data",
+                    "subject; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "g",
+                  "textlines": [
+                    "(g)",
+                    "processing is necessary for the purposes of preventive or",
+                    "occupational medicine, medical diagnosis, the provision of",
+                    "care or treatment or the management of health-care services,",
+                    "and where such data is processed by a health professional",
+                    "licensed under or authorized by any written law prevailing",
+                    "in Sri Lanka; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "h",
+                  "textlines": [
+                    "(h)",
+                    "processing is necessary for archiving purposes in the public",
+                    "interest, scientific research or historical research purposes",
+                    "or statistical purposes in accordance with law which shall",
+                    "be proportionate to the aim pursued, protecting the data",
+                    "protection rights enumerated in this Act or any other written",
+                    "law and provide for suitable and specific measures to",
+                    "safeguard the rights and freedoms of the data subject.",
+                    "(Section 5 (c))"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule_num": "III",
+      "textlines": [],
+      "sections": [
+        {
+          "section_num": "dummy",
+          "marginal_note": "",
+          "textlines": [],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a)",
+                    "the controller shall demonstrate that the data subject has",
+                    "consented to processing of the personal data relating to",
+                    "such data subject;"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "if the consent of the data subject is given in the context of",
+                    "a written declaration which also concerns other matters, the",
+                    "request for consent shall be presented in a manner which is",
+                    "clearly distinguishable from the other matters, in an",
+                    "intelligible and easily accessible form, using clear and plain",
+                    "language:",
+                    "Provided that, such a declaration shall not constitute an",
+                    "infringement of any provisions of this Act."
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c) when assessing whether consent is freely given, utmost",
+                    "account shall be taken on whether, inter alia, the",
+                    "performance of a contract, including the provision of a",
+                    "service, is conditional on consent to the processing of",
+                    "personal data that is not necessary for the performance of",
+                    "that contract; and"
+                  ]
+                },
+                {
+                  "paragraph_num": "d",
+                  "textlines": [
+                    "(d)",
+                    "prior to giving consent, the data subject shall be informed",
+                    "thereof that consent can be withdrawn anytime subject to",
+                    "the provisions of this Act.",
+                    "(Section 5 (d))"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule_num": "IV",
+      "textlines": [],
+      "sections": [
+        {
+          "section_num": "dummy",
+          "marginal_note": "",
+          "textlines": [],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a)",
+                    "processing of personal data relating to lawful investigations",
+                    "of offences or related security measures shall be carried out",
+                    "only in accordance with applicable written laws, whilst",
+                    "providing for appropriate safeguards for the rights and",
+                    "freedoms of data subjects;"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "for the avoidance of doubt, processing of personal data",
+                    "may be considered lawful under this Schedule if",
+                    "investigations are carried out pursuant to the provisions of",
+                    "the Code of Criminal Procedure Act, No. 15 of 1979 or",
+                    "provisions under any other written law; and"
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c)",
+                    "conditions for providing appropriate safeguards for the",
+                    "rights and freedoms of data subjects under this Schedule as",
+                    "may be prescribed.",
+                    "(Section 11 and 13)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule_num": "V",
+      "textlines": [],
+      "sections": [
+        {
+          "section_num": 1,
+          "marginal_note": "",
+          "textlines": [
+            "1. where the personal data relating to a data subject is collected",
+            "from the data subject, the controller shall provide the data subject",
+            "with the following information, at the time of collection of such",
+            "personal data -"
+          ],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a)",
+                    "the identity and contact details of the controller and where",
+                    "applicable of the controller's representative;"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "the contact details of the Data Protection Officer, where",
+                    "applicable;"
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c)",
+                    "the intended purposes for which the personal data is",
+                    "processed and the legal basis for the processing;"
+                  ]
+                },
+                {
+                  "paragraph_num": "d",
+                  "textlines": [
+                    "(d)",
+                    "the legitimate interest pursued by the controller or by a",
+                    "third party where processing is based on item (f) of",
+                    "Schedule 1;"
+                  ]
+                },
+                {
+                  "paragraph_num": "e",
+                  "textlines": [
+                    "(e)",
+                    "the categories of personal data being collected;"
+                  ]
+                },
+                {
+                  "paragraph_num": "f",
+                  "textlines": [
+                    "(f) where processing is intended to be based on consent",
+                    "pursuant to item (a) of Schedule I and item (a) of Schedule",
+                    "II, the existence of the right of the data subject to withdraw",
+                    "his consent, and the procedure for such withdrawal, without",
+                    "affecting the lawfulness of processing based on consent",
+                    "before its withdrawal;"
+                  ]
+                },
+                {
+                  "paragraph_num": "g",
+                  "textlines": [
+                    "(g)",
+                    "recipients or third parties with whom such personal data",
+                    "may be shared, if applicable;"
+                  ]
+                },
+                {
+                  "paragraph_num": "h",
+                  "textlines": [
+                    "(h)",
+                    "information regarding any cross-border transfer of the",
+                    "personal data that the controller intends to carry out, if",
+                    "applicable;"
+                  ]
+                },
+                {
+                  "paragraph_num": "i",
+                  "textlines": [
+                    "(i)",
+                    "the period for which the personal data shall be retained in",
+                    "terms of section 9 or where such period is not known, the",
+                    "criteria for determining such period;"
+                  ]
+                },
+                {
+                  "paragraph_num": "j",
+                  "textlines": [
+                    "(j)",
+                    "the existence of and procedure for the exercise of rights of",
+                    "the data subject mentioned in Part II;"
+                  ]
+                },
+                {
+                  "paragraph_num": "k",
+                  "textlines": [
+                    "(k)",
+                    "the existence of a right to file complaints to the Authority;"
+                  ]
+                },
+                {
+                  "paragraph_num": "l",
+                  "textlines": [
+                    "(l) whether the provision of personal data by the data subject",
+                    "is a statutory or contractual requirement, or a requirement",
+                    "necessary to enter into a contract, as well as whether the",
+                    "data subject is obliged to provide the personal data and of",
+                    "the possible consequences of failure to provide such data;",
+                    "and"
+                  ]
+                },
+                {
+                  "paragraph_num": "m",
+                  "textlines": [
+                    "(m)",
+                    "the existence of automated individual decision-making",
+                    "referred to in section 18, including profiling, and, at least",
+                    "in those cases, reasonably meaningful information about",
+                    "the logic involved, as well as the significance and the",
+                    "envisaged consequences of such processing for the data",
+                    "subject."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_num": 2,
+          "marginal_note": "",
+          "textlines": [
+            "2. Where the controller intends to further process the personal",
+            "data for a purpose other than for which it was originally collected, the",
+            "controller shall provide the data subject detailed information on the",
+            "further processing in the manner provided in item 1 of this Schedule",
+            "and the purpose thereof."
+          ],
+          "subsections": []
+        },
+        {
+          "section_num": 3,
+          "marginal_note": "",
+          "textlines": [
+            "3.",
+            "Items 1, and 2 of this Schedule shall not apply where the data",
+            "subject already has obtained or made aware of the information."
+          ],
+          "subsections": []
+        },
+        {
+          "section_num": 4,
+          "marginal_note": "",
+          "textlines": [
+            "4. Where the personal data of the data subject has been obtained",
+            "other than through a direct interaction with the data subject, the",
+            "controller shall provide the data subject, the source from which the",
+            "personal data originate, and whether or not it came from publicly",
+            "accessible source, where applicable in addition to the information",
+            "required under item 1 of this Schedule."
+          ],
+          "subsections": []
+        },
+        {
+          "section_num": 5,
+          "marginal_note": "",
+          "textlines": [
+            "5. Where the personal data of the data subject has been obtained",
+            "other than through a direct interaction with the data subject, the",
+            "controller shall provide the information under items 1 and 4 of this",
+            "Schedule -"
+          ],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a) within a reasonable period of time after obtaining the",
+                    "personal data, but at least within one month, having regard",
+                    "to the specific circumstances in which the personal data is",
+                    "processed;"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "if the personal data is to be used for communication with",
+                    "the data subject, at least at the time of the first communication",
+                    "to that data subject; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c)",
+                    "if a disclosure to another recipient is envisaged, at least",
+                    "when the personal data is first disclosed."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_num": 6,
+          "marginal_note": "",
+          "textlines": [
+            "6.",
+            "Items 1 to 4 of this Schedule shall not apply where -"
+          ],
+          "subsections": [
+            {
+              "subsection_num": "dummy",
+              "textlines": [],
+              "paragraphs": [
+                {
+                  "paragraph_num": "a",
+                  "textlines": [
+                    "(a)",
+                    "the controller has established the fact that the data",
+                    "subject has already been provided with or made aware",
+                    "of the information; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "b",
+                  "textlines": [
+                    "(b)",
+                    "the provision of such information proves impossible",
+                    "or would involve a disproportionate effort, in",
+                    "particular for processing for archival purposes in the",
+                    "public interest in the manner provided for by any",
+                    "written law, scientific research, historical research or",
+                    "statistical research purposes, subject to the conditions",
+                    "and safeguards provided in this Act or in so far as the",
+                    "obligation referred to in item 1 of this Schedule is",
+                    "likely to render impossible or seriously impair the",
+                    "achievement of the objectives of that processing.",
+                    "In such cases the controller shall take appropriate",
+                    "measures to protect the rights and freedoms of data",
+                    "subject protected under any written law, including",
+                    "making the relevant information publicly available;",
+                    "or"
+                  ]
+                },
+                {
+                  "paragraph_num": "c",
+                  "textlines": [
+                    "(c)",
+                    "obtaining or disclosure is expressly laid down by any",
+                    "written law to which the controller is subjected to and which",
+                    "provides appropriate measures to protect the rights and",
+                    "freedoms of data subjects protected under this Act and such",
+                    "written law; or"
+                  ]
+                },
+                {
+                  "paragraph_num": "d",
+                  "textlines": [
+                    "(d)",
+                    "the personal data shall remain confidential, consequent to",
+                    "obligations of professional privilege or is not permitted to",
+                    "be disclosed under any written law, including a statutory",
+                    "obligation of secrecy.",
+                    "Department of Government Printing"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
