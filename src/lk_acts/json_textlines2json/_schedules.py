@@ -104,7 +104,8 @@ def extract_schedules(textlines_with_metadata):
                         subsections=subsections,
                     )
                     sections.append(section)
-                l0_textlines += l1_textlines
+                if l0:
+                    l0_textlines += l1_textlines
 
         if l0 or l1:
             schedule = dict(
