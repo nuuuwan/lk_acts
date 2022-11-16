@@ -3,9 +3,10 @@ import re
 from utils import JSONFile
 
 from lk_acts._utils import get_file_name, log
+from lk_acts.json_textlines2json._body import extract_parts
 from lk_acts.json_textlines2json._intro import extract_intro_data
-from lk_acts.json_textlines2json._sections import extract_sections
 
+REGEX_PART = r'PART (?P<part_num>[IVX]+)'
 REGEX_SECTION = r'(?P<section_num>\d+)\.'
 REGEX_SUBSECTION = r'\((?P<subsection_num>\d+)\).*'
 REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-z])\).*'
@@ -23,6 +24,7 @@ def cmp_textlines(textline):
 def add_metadata(textlines_original):
     textlines = sorted(textlines_original, key=cmp_textlines)
 
+    part_num = None
     section_num = None
     subsection_num = None
     paragraph_num = None
@@ -33,6 +35,14 @@ def add_metadata(textlines_original):
         stripped_text = textline['text'].strip()
         x1 = (float)(textline['bbox']['x1'])
         (int)(x1 / 5)
+
+        result = re.match(REGEX_PART, stripped_text)
+        if result:
+            part_num = result.groupdict()['part_num']
+            section_num = None
+            subsection_num = None
+            paragraph_num = None
+            sub_paragraph_num = None
 
         if textline['class_name'] == 'normal-bold':
             result = re.match(REGEX_SECTION, stripped_text)
@@ -74,6 +84,7 @@ def add_metadata(textlines_original):
         textlines_with_metadata.append(
             textline
             | dict(
+                part_num=part_num,
                 section_num=section_num,
                 subsection_num=subsection_num,
                 paragraph_num=paragraph_num,
@@ -98,7 +109,7 @@ def convert(config):
     intro_data = extract_intro_data(textlines_with_metadata)
 
     data = intro_data | dict(
-        sections=extract_sections(textlines_with_metadata),
+        parts=extract_parts(textlines_with_metadata),
     )
 
     JSONFile(json_file).write(config | data)

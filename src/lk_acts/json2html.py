@@ -125,6 +125,26 @@ def render_sections(sections):
     )
 
 
+def render_part(part):
+    part_title = 'Part ' + part['part_num'] if part['part_num'] else "..."
+    return _(
+        'div',
+        [
+            _('h3', part_title, {'class': 'part-title'}),
+            render_sections(part['sections']),
+        ],
+        {'class': 'part'},
+    )
+
+
+def render_parts(parts):
+    return _(
+        'div',
+        [render_part(part) for part in parts],
+        {'class': 'parts'},
+    )
+
+
 def render_lines(lines):
     return list(
         map(
@@ -195,7 +215,7 @@ def convert(config):
                         {'class': 'title-kicker'},
                     ),
                     render_intro(data),
-                    render_sections(data['sections']),
+                    render_parts(data['parts']),
                 ],
             ),
         ],
