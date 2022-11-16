@@ -2,7 +2,7 @@ import re
 
 from utils import JSONFile
 
-from lk_acts._utils import get_file_name, log
+from lk_acts._utils import clean_textline, get_file_name, join_textlines, log
 
 REGEX_SECTION = r'(?P<section_num>\d+)\.'
 REGEX_SUBSECTION = r'\((?P<subsection_num>\d+)\).*'
@@ -12,27 +12,6 @@ REGEX_PUBLISHED = (
     r'\(Published in the Gazette on'
     + r' (?P<month>\w+) (?P<day>\d+), (?P<year>\d{4})\)'
 )
-
-
-def clean_textline(s):
-    s = s.strip()
-    s = re.sub('\\s+', ' ', s)
-    for [before, after] in [
-        [u"\u2013", "-"],
-        [u"\u2014", "-"],
-        [u"\u2019", "'"],
-        [u"\u201c", "\""],
-        [u"\u201d", "\""],
-        [u"\u2026", "-"],
-    ]:
-        s = s.replace(before, after)
-    return s
-
-
-def join_textlines(textlines):
-    s = ' '.join(textlines)
-    s = clean_textline(s)
-    return s
 
 
 def cmp_textlines(textline):

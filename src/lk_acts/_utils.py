@@ -1,4 +1,5 @@
 import os
+import re
 
 from utils import dt, logx
 
@@ -27,3 +28,24 @@ def get_file_name(config, ext):
         dir_config,
         f'data.{ext}',
     )
+
+
+def clean_textline(s):
+    s = s.strip()
+    s = re.sub('\\s+', ' ', s)
+    for [before, after] in [
+        [u"\u2013", "-"],
+        [u"\u2014", "-"],
+        [u"\u2019", "'"],
+        [u"\u201c", "\""],
+        [u"\u201d", "\""],
+        [u"\u2026", "-"],
+    ]:
+        s = s.replace(before, after)
+    return s
+
+
+def join_textlines(textlines):
+    s = ' '.join(textlines)
+    s = clean_textline(s)
+    return s
