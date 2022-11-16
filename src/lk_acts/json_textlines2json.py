@@ -89,13 +89,21 @@ def add_metadata(textlines_original):
 
 def extract_intro_data(textlines_with_metadata):
     short_title = ''
-    long_title = ''
+    long_title_lines = []
+    is_beyond_published = False
     for textline in textlines_with_metadata:
         text = clean_textline(textline['text'])
         font_size = (float)(textline['font_size'])
-        if 16 < font_size < 17:
-            short_title = text.title()
+        section_num = textline['section_num']
+        if not section_num:
+            if text[:10] == '(Published':
+                is_beyond_published = True
+            elif 16 < font_size < 17:
+                short_title = text.title()
+            elif 11 < font_size < 14 and not is_beyond_published:
+                long_title_lines.append(text)
 
+    long_title = join_textlines(long_title_lines)
     return dict(short_title=short_title, long_title=long_title)
 
 
