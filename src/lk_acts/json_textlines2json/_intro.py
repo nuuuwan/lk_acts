@@ -17,6 +17,7 @@ def extract_intro_data(textlines_with_metadata):
     date_published = None
     price_lkr = None
     postage_lkr = None
+    preamble_lines = []
 
     for textline in textlines_with_metadata:
         section_num = textline['section_num']
@@ -52,8 +53,17 @@ def extract_intro_data(textlines_with_metadata):
             postage_lkr = (int)(result.groupdict()['postage_lkr'])
             continue
 
+        if postage_lkr:
+            if 'This Bill can be downloaded' in text:
+                continue
+            if 'L.D.O' in text:
+                continue
+            if font_size < 8 or font_size > 9:
+                preamble_lines.append(text)
+
     long_title = join_textlines(long_title_lines)
     presented_by = join_textlines(presented_by_lines)
+    preamble = join_textlines(preamble_lines)
     return dict(
         short_title=short_title,
         long_title=long_title,
@@ -61,4 +71,5 @@ def extract_intro_data(textlines_with_metadata):
         date_published=date_published,
         price_lkr=price_lkr,
         postage_lkr=postage_lkr,
+        preamble=preamble,
     )
