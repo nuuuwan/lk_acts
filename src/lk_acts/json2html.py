@@ -128,7 +128,7 @@ def convert(config):
                     _(
                         'link',
                         None,
-                        dict(rel="stylesheet", href="styles.css"),
+                        dict(rel="stylesheet", href="../styles.css"),
                     ),
                 ],
             ),
