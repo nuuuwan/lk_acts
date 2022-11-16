@@ -100,6 +100,8 @@ def extract_parts(textlines_with_metadata):
                     subsections=subsections,
                 )
                 sections.append(section)
+            else:
+                l0_textlines += l1_textlines
         if l0 or l1:
             part = dict(
                 part_num=l0, textlines=l0_textlines, sections=sections

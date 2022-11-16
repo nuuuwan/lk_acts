@@ -126,11 +126,10 @@ def render_sections(sections):
 
 
 def render_part(part):
-    part_title = 'Part ' + part['part_num'] if part['part_num'] else "..."
     return _(
         'div',
         [
-            _('h3', part_title, {'class': 'part-title'}),
+            _('h3', render_lines(part['textlines']), {'class': 'part-title'}),
             render_sections(part['sections']),
         ],
         {'class': 'part'},
@@ -146,15 +145,14 @@ def render_parts(parts):
 
 
 def render_schedule(schedule):
-    schedule_title = (
-        'Schedule ' + schedule['schedule_num']
-        if schedule['schedule_num']
-        else "..."
-    )
     return _(
         'div',
         [
-            _('h3', schedule_title, {'class': 'schedule-title'}),
+            _(
+                'h3',
+                render_lines(schedule['textlines']),
+                {'class': 'schedule-title'},
+            ),
             render_sections(schedule['sections']),
         ],
         {'class': 'schedule'},

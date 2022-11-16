@@ -53,7 +53,48 @@
   "parts": [
     {
       "part_num": null,
-      "textlines": [],
+      "textlines": [
+        "PARLIAMENT OF THE DEMOCRATIC",
+        "SOCIALIST REPUBLIC OF",
+        "SRI LANKA",
+        " ",
+        "PERSONAL DATA PROTECTION",
+        "A",
+        "BILL",
+        "to provide for the Regulation of Processing of Personal Data; to identify",
+        "and strengthen the Rights of Data Subjects in relation to the protection of",
+        "Personal Data; to provide for the designation of the Data Protection",
+        "Authority; and to provide for matters connected therewith or incidental",
+        "thereto",
+        " ",
+        "Presented by the Prime Minister and Minister of Economic Policies & Plan",
+        "Implementation, Minister of Buddhasasana, Religious & Cultural Affairs",
+        "and Minister of Urban Development & Housing on 20th of January, 2022",
+        "(Published in the Gazette on November 25, 2021)",
+        "Ordered by Parliament to be printed",
+        " ",
+        "[Bill No. 99]",
+        "Price : Rs. 85.00",
+        "Postage : Rs. 35.00",
+        "L.D.O-19/2019.",
+        "AN ACT TO PROVIDE FOR THE REGULATION OF PROCESSING OF PERSONAL",
+        "DATA; TO IDENTIFY AND STRENGTHEN THE RIGHTS OF DATA SUBJECTS",
+        "WHEREAS it has become necessary to facilitate the growth",
+        "and innovation in the digital economy in Sri Lanka whilst",
+        "protecting the personal data rights of the data subjects:",
+        "AND WHEREAS it has become necessary to improve",
+        "interoperability among personal data protection frameworks",
+        "as well as to strengthen cross-border co-operation among",
+        "personal data protection enforcement authorities:",
+        "AND WHEREAS it has become necessary for the government",
+        "of Sri Lanka to provide for a legal framework to provide for",
+        "mechanisms for the protection of personal data of data",
+        "subjects ensuring consumer trust and safeguarding privacy",
+        "whilst respecting domestic written laws and applicable",
+        "international legal instruments:",
+        "NOW THEREFORE BE it enacted by the Parliament of the",
+        "Democratic Socialist Republic of Sri Lanka as follows: -"
+      ],
       "sections": [
         {
           "section_num": 1,
@@ -248,7 +289,10 @@
     },
     {
       "part_num": "I",
-      "textlines": [],
+      "textlines": [
+        "PART I",
+        "PROCESSING OF PERSONAL DATA"
+      ],
       "sections": [
         {
           "section_num": 4,
@@ -615,7 +659,10 @@
     },
     {
       "part_num": "II",
-      "textlines": [],
+      "textlines": [
+        "PART II",
+        "RIGHTS OF DATA SUBJECTS"
+      ],
       "sections": [
         {
           "section_num": 13,
@@ -1146,7 +1193,10 @@
     },
     {
       "part_num": "III",
-      "textlines": [],
+      "textlines": [
+        "PART III",
+        "CONTROLLERS AND PROCESSORS"
+      ],
       "sections": [
         {
           "section_num": 20,
@@ -1782,7 +1832,11 @@
     },
     {
       "part_num": "IV",
-      "textlines": [],
+      "textlines": [
+        "PART IV",
+        "USE OF PERSONAL DATA TO DISSEMINATE UNSOLICITED",
+        "MESSAGES"
+      ],
       "sections": [
         {
           "section_num": 27,
@@ -1875,7 +1929,10 @@
     },
     {
       "part_num": "V",
-      "textlines": [],
+      "textlines": [
+        "PART V",
+        "DATA PROTECTION AUTHORITY"
+      ],
       "sections": [
         {
           "section_num": 28,
@@ -2478,7 +2535,10 @@
     },
     {
       "part_num": "VI",
-      "textlines": [],
+      "textlines": [
+        "PART VI",
+        "PENALTIES"
+      ],
       "sections": [
         {
           "section_num": 33,
@@ -2781,7 +2841,10 @@
     },
     {
       "part_num": "VII",
-      "textlines": [],
+      "textlines": [
+        "PART VII",
+        "MISCELLANEOUS"
+      ],
       "sections": [
         {
           "section_num": 36,
@@ -3208,7 +3271,10 @@
     },
     {
       "part_num": "VIII",
-      "textlines": [],
+      "textlines": [
+        "PART VIII",
+        "INTERPRETATION"
+      ],
       "sections": [
         {
           "section_num": 47,
@@ -3466,7 +3532,10 @@
   "schedules": [
     {
       "schedule_num": "I",
-      "textlines": [],
+      "textlines": [
+        "SCHEDULE I",
+        "CONDITIONS FOR LAWFUL PROCESSING"
+      ],
       "sections": [
         {
           "section_num": "dummy",
@@ -3619,7 +3688,10 @@
     },
     {
       "schedule_num": "II",
-      "textlines": [],
+      "textlines": [
+        "SCHEDULE II",
+        "CONDITIONS FOR PROCESSING SPECIAL CATEGORIES OF PERSONAL DATA"
+      ],
       "sections": [
         {
           "section_num": "dummy",
@@ -3733,7 +3805,10 @@
     },
     {
       "schedule_num": "III",
-      "textlines": [],
+      "textlines": [
+        "SCHEDULE III",
+        "CONDITIONS FOR CONSENT OF THE DATA SUBJECT"
+      ],
       "sections": [
         {
           "section_num": "dummy",
@@ -3796,7 +3871,10 @@
     },
     {
       "schedule_num": "IV",
-      "textlines": [],
+      "textlines": [
+        "SCHEDULE IV",
+        "PROCESSING PERSONAL DATA RELATING TO CRIMINAL INVESTIGATIONS"
+      ],
       "sections": [
         {
           "section_num": "dummy",
@@ -3847,7 +3925,10 @@
     },
     {
       "schedule_num": "V",
-      "textlines": [],
+      "textlines": [
+        "SCHEDULE V",
+        "COLLECTION OF PERSONAL DATA"
+      ],
       "sections": [
         {
           "section_num": 1,
