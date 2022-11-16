@@ -40,6 +40,7 @@ def clean_textline(s):
         [u"\u201c", "\""],
         [u"\u201d", "\""],
         [u"\u2026", "-"],
+        ['--------', ' '],
     ]:
         s = s.replace(before, after)
     return s
