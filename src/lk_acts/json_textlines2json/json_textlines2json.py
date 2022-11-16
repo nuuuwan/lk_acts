@@ -11,10 +11,7 @@ REGEX_SECTION = r'(?P<section_num>\d+)\.'
 REGEX_SUBSECTION = r'\((?P<subsection_num>\d+)\).*'
 REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-z])\).*'
 REGEX_SUB_PARAGRAPH = r'\((?P<sub_paragraph_num>[ivx]+)\).*'
-REGEX_PUBLISHED = (
-    r'\(Published in the Gazette on'
-    + r' (?P<month>\w+) (?P<day>\d+), (?P<year>\d{4})\)'
-)
+REGEX_SCHEDULE = r'SCHEDULE (?P<schedule_num>[IVX]+)'
 
 
 def cmp_textlines(textline):
@@ -24,6 +21,7 @@ def cmp_textlines(textline):
 def add_metadata(textlines_original):
     textlines = sorted(textlines_original, key=cmp_textlines)
 
+    schedule_num = None
     part_num = None
     section_num = None
     subsection_num = None
@@ -44,15 +42,22 @@ def add_metadata(textlines_original):
             paragraph_num = None
             sub_paragraph_num = None
 
-        if textline['class_name'] == 'normal-bold':
-            result = re.match(REGEX_SECTION, stripped_text)
-            if result:
-                section_num = (int)(result.groupdict()['section_num'])
-                subsection_num = None
-                paragraph_num = None
-                sub_paragraph_num = None
+        result = re.match(REGEX_SCHEDULE, stripped_text)
+        if result:
+            schedule_num = result.groupdict()['schedule_num']
+            section_num = None
+            subsection_num = None
+            paragraph_num = None
+            sub_paragraph_num = None
 
-        elif textline['class_name'] == 'normal':
+        result = re.match(REGEX_SECTION, stripped_text)
+        if result:
+            section_num = (int)(result.groupdict()['section_num'])
+            subsection_num = None
+            paragraph_num = None
+            sub_paragraph_num = None
+
+        if textline['class_name'] == 'normal':
             result = re.match(REGEX_SUBSECTION, stripped_text)
             if result:
                 subsection_num = (int)(result.groupdict()['subsection_num'])
@@ -85,6 +90,7 @@ def add_metadata(textlines_original):
             textline
             | dict(
                 part_num=part_num,
+                schedule_num=schedule_num,
                 section_num=section_num,
                 subsection_num=subsection_num,
                 paragraph_num=paragraph_num,
