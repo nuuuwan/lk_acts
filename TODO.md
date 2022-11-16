@@ -1,5 +1,4 @@
 # LOW
-* Inconsistent indenting
 
 # HEDIUM
 * Add Parts
