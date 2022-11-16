@@ -1,3 +1,4 @@
+import sys
 from src.lk_acts import json2html, pdf2xml, url2pdf, xml2json_textlines
 from src.lk_acts.json_textlines2json import json_textlines2json
 
@@ -22,4 +23,7 @@ def run_post_xml():
 
 
 if __name__ == '__main__':
-    run_post_xml()
+    if len(sys.argv) > 1 and sys.argv[1] == '--all':
+        run_all()
+    else:
+        run_post_xml()
