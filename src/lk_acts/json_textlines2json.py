@@ -33,7 +33,7 @@ def cmp_textlines(textline):
     return textline['i_page'] * 1_000_000 - (int)(textline['bbox']['y2'])
 
 
-def extract_data(textlines_original):
+def add_metadata(textlines_original):
     textlines = sorted(textlines_original, key=cmp_textlines)
 
     section_num = None
@@ -82,13 +82,10 @@ def extract_data(textlines_original):
             )
         )
 
-    sections = fold_sections(textlines_with_metadata)
-    return dict(
-        sections=sections,
-    )
+    return textlines_with_metadata
 
 
-def fold_sections(textlines_with_metadata):
+def extract_sections(textlines_with_metadata):
     idx = {}
     section_to_marginal_note = {}
     for textline in textlines_with_metadata:
@@ -195,6 +192,10 @@ def convert(config):
     json_textlines_file = get_file_name(config, 'textlines.json')
     json_file = get_file_name(config, 'json')
     textlines = JSONFile(json_textlines_file).read()
-    data = extract_data(textlines)
+    textlines_with_metadata = add_metadata(textlines)
+    data = dict(
+        sections=extract_sections(textlines_with_metadata),
+    )
+
     JSONFile(json_file).write(config | data)
     log.info(f'{json_textlines_file} -> {json_file}')
