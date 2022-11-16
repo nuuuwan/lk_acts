@@ -1,23 +1,17 @@
-import os
-
 from utils import www
 
-from lk_acts._constants import DIR_DATA
-from lk_acts._utils import log
+from lk_acts._utils import get_file_name, log
+from lk_acts.METADATA_LIST import METADATA_LIST
 
 
-def get_file(label):
-    return os.path.join(DIR_DATA, f'{label}.pdf')
-
-
-def download_bill(url, label):
-    doc_file = get_file(label)
-    www.download_binary(url, doc_file)
-    log.info(f'Downloaded {url} to {doc_file}')
+def download_bill(url, pdf_file):
+    www.download_binary(url, pdf_file)
+    log.info(f'Downloaded {url} to {pdf_file}')
 
 
 if __name__ == '__main__':
+    config = METADATA_LIST[0]
     download_bill(
-        'http://documents.gov.lk/files/bill/2022/1/167-2022_E.pdf',
-        'bill-2022-09-personal-data-protection',
+        url=config['url'],
+        pdf_file=get_file_name(config, 'pdf'),
     )
