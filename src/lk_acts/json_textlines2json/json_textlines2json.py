@@ -28,10 +28,11 @@ def add_metadata(textlines_original):
     paragraph_num = None
     sub_paragraph_num = None
     textlines_with_metadata = []
+    prev_paragraph_num = None
     for textline in textlines:
         stripped_text = textline['text'].strip()
         x1 = (float)(textline['bbox']['x1'])
-        indent = (int)(x1 / 5)
+        (int)(x1 / 5)
 
         if textline['class_name'] == 'normal-bold':
             result = re.match(REGEX_SECTION, stripped_text)
@@ -49,10 +50,21 @@ def add_metadata(textlines_original):
                 sub_paragraph_num = None
             else:
                 result = re.match(REGEX_PARAGRAPH, stripped_text)
-                if result and indent < 39:
-                    paragraph_num = result.groupdict()['paragraph_num']
-                    sub_paragraph_num = None
-                else:
+                found_paragraph = False
+                if result:
+                    paragraph_num_candidate = result.groupdict()[
+                        'paragraph_num'
+                    ]
+                    if (
+                        paragraph_num_candidate != 'i'
+                        or prev_paragraph_num == 'h'
+                    ):
+                        paragraph_num = paragraph_num_candidate
+                        sub_paragraph_num = None
+                        prev_paragraph_num = paragraph_num
+                        found_paragraph = True
+
+                if not found_paragraph:
                     result = re.match(REGEX_SUB_PARAGRAPH, stripped_text)
                     if result:
                         sub_paragraph_num = result.groupdict()[

@@ -1340,8 +1340,8 @@
     "text": "(v) specifically  monitors  the  behaviour  of  data\n",
     "section_num": 2,
     "subsection_num": 1,
-    "paragraph_num": "b",
-    "sub_paragraph_num": "v"
+    "paragraph_num": "v",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 2,
@@ -1356,8 +1356,8 @@
     "text": "subjects in Sri Lanka including profiling with\n",
     "section_num": 2,
     "subsection_num": 1,
-    "paragraph_num": "b",
-    "sub_paragraph_num": "v"
+    "paragraph_num": "v",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 2,
@@ -1372,8 +1372,8 @@
     "text": "the intention of making decisions in relation\n",
     "section_num": 2,
     "subsection_num": 1,
-    "paragraph_num": "b",
-    "sub_paragraph_num": "v"
+    "paragraph_num": "v",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 2,
@@ -1388,8 +1388,8 @@
     "text": "to the behavior of such data subjects in so far\n",
     "section_num": 2,
     "subsection_num": 1,
-    "paragraph_num": "b",
-    "sub_paragraph_num": "v"
+    "paragraph_num": "v",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 2,
@@ -1404,8 +1404,8 @@
     "text": "as such behaviour takes place in Sri Lanka.\n",
     "section_num": 2,
     "subsection_num": 1,
-    "paragraph_num": "b",
-    "sub_paragraph_num": "v"
+    "paragraph_num": "v",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 3,
@@ -1580,7 +1580,7 @@
     "text": "(a) any personal data processed purely for private,\n",
     "section_num": 2,
     "subsection_num": 3,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -1596,7 +1596,7 @@
     "text": "domestic  or  household  purposes  by  an\n",
     "section_num": 2,
     "subsection_num": 3,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -1612,7 +1612,7 @@
     "text": "individual;  and\n",
     "section_num": 2,
     "subsection_num": 3,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -1628,7 +1628,7 @@
     "text": "(b) any data other than personal data.\n",
     "section_num": 2,
     "subsection_num": 3,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7580,7 +7580,7 @@
     "text": "(a) has not refrained from further processing of\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7596,7 +7596,7 @@
     "text": "to  the\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7612,7 +7612,7 @@
     "text": "personal data under section 14; or\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7628,7 +7628,7 @@
     "text": "Authority\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7644,7 +7644,7 @@
     "text": "and  the\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7660,7 +7660,7 @@
     "text": "(b) has  refused  to  rectify  or  complete  personal\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7676,7 +7676,7 @@
     "text": "process  of\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7692,7 +7692,7 @@
     "text": "determination\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7708,7 +7708,7 @@
     "text": "data under section 15; or\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7724,7 +7724,7 @@
     "text": "of  such\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7740,7 +7740,7 @@
     "text": "appeal\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7756,7 +7756,7 @@
     "text": "(c) has  refused  to  erase  personal  data  under\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -7772,7 +7772,7 @@
     "text": "section 16; or\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -7788,7 +7788,7 @@
     "text": "(d) has  refused  the  request  of  the  data  subject\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -7804,7 +7804,7 @@
     "text": "under section 17(2); or\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -7820,7 +7820,7 @@
     "text": "(e) has refused the request to review a decision\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -7836,7 +7836,7 @@
     "text": "based solely on automated processing under\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -7852,7 +7852,7 @@
     "text": "section 18(1),\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -7868,7 +7868,7 @@
     "text": "the  data  subject  may,  appeal  against  such  decision  in  the\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -7884,7 +7884,7 @@
     "text": "form,  manner  and  within  such  period  of  time  as  may  be\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -7900,7 +7900,7 @@
     "text": "prescribed.\n",
     "section_num": 19,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -7932,7 +7932,7 @@
     "text": "(a) decision  of  the  controller  to  refrain  from\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7948,7 +7948,7 @@
     "text": "further  processing  of  personal  data  under\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7964,7 +7964,7 @@
     "text": "section 14 was lawful;\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -7980,7 +7980,7 @@
     "text": "(b) decision of the controller to refuse to rectify\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -7996,7 +7996,7 @@
     "text": "or complete personal data under section 15\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -8012,7 +8012,7 @@
     "text": "was lawful;\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -8028,7 +8028,7 @@
     "text": "(c)  decision of the controller to refuse the erasure\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -8044,7 +8044,7 @@
     "text": "of personal data under section 16 was lawful;\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -8060,7 +8060,7 @@
     "text": "(d)  refusal under section 17(2) by the controller\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -8076,7 +8076,7 @@
     "text": "was lawful;\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -8092,7 +8092,7 @@
     "text": "(e) refusal to review a decision based solely on\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -8108,7 +8108,7 @@
     "text": "automated  processing  under  section  18(1)\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -8124,7 +8124,7 @@
     "text": "was lawful.\n",
     "section_num": 19,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -10700,7 +10700,7 @@
     "text": "(a) the  circumstances  where  the  Authority  shall\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -10716,7 +10716,7 @@
     "text": "be notified of such data breach;\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -10732,7 +10732,7 @@
     "text": "(b) the  circumstances  where  the  affected  data\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -10748,7 +10748,7 @@
     "text": "subject shall be notified; and\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -10764,7 +10764,7 @@
     "text": "(c) the  form,  and  manner  of  making  such\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -10780,7 +10780,7 @@
     "text": "notification, and the information which shall\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -10796,7 +10796,7 @@
     "text": "be  provided  in  such  notification  relating  to\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -10812,7 +10812,7 @@
     "text": "the data breach,\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -10828,7 +10828,7 @@
     "text": "by way of rules made under this Act.\n",
     "section_num": 23,
     "subsection_num": 2,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -12604,8 +12604,8 @@
     "text": "(i) be  subject  to  periodic  monitoring  of  the\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
-    "sub_paragraph_num": null
+    "paragraph_num": "b",
+    "sub_paragraph_num": "i"
   },
   {
     "i_page": 20,
@@ -12620,8 +12620,8 @@
     "text": "developments  in  a  third  country  that  may  affect\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
-    "sub_paragraph_num": null
+    "paragraph_num": "b",
+    "sub_paragraph_num": "i"
   },
   {
     "i_page": 20,
@@ -12636,8 +12636,8 @@
     "text": "such decisions and the Minister may review such\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
-    "sub_paragraph_num": null
+    "paragraph_num": "b",
+    "sub_paragraph_num": "i"
   },
   {
     "i_page": 20,
@@ -12652,8 +12652,8 @@
     "text": "decision  at least every two years; and\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
-    "sub_paragraph_num": null
+    "paragraph_num": "b",
+    "sub_paragraph_num": "i"
   },
   {
     "i_page": 20,
@@ -12668,7 +12668,7 @@
     "text": "(ii)\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
+    "paragraph_num": "b",
     "sub_paragraph_num": "ii"
   },
   {
@@ -12684,7 +12684,7 @@
     "text": "remain in force until amended or revoked by the\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
+    "paragraph_num": "b",
     "sub_paragraph_num": "ii"
   },
   {
@@ -12700,7 +12700,7 @@
     "text": "Minister in consultation with the authority.\n",
     "section_num": 26,
     "subsection_num": 2,
-    "paragraph_num": "i",
+    "paragraph_num": "b",
     "sub_paragraph_num": "ii"
   },
   {
@@ -17788,7 +17788,7 @@
     "text": "(f) of section 43, any regulation, guideline or Order\n",
     "section_num": 32,
     "subsection_num": 1,
-    "paragraph_num": "b",
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -17804,7 +17804,7 @@
     "text": "made under this Act or under any other written law\n",
     "section_num": 32,
     "subsection_num": 1,
-    "paragraph_num": "b",
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -17820,7 +17820,7 @@
     "text": "relating to the processing of personal data,\n",
     "section_num": 32,
     "subsection_num": 1,
-    "paragraph_num": "b",
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -17836,7 +17836,7 @@
     "text": "the Authority may, conduct an inquiry in accordance with\n",
     "section_num": 32,
     "subsection_num": 1,
-    "paragraph_num": "b",
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -17852,7 +17852,7 @@
     "text": "the procedure as may be prescribed.\n",
     "section_num": 32,
     "subsection_num": 1,
-    "paragraph_num": "b",
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -22012,7 +22012,7 @@
     "text": "(a)\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -22028,7 +22028,7 @@
     "text": "the appointment, employment and dismissal\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -22044,7 +22044,7 @@
     "text": "of various officers and their powers, functions\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -22060,7 +22060,7 @@
     "text": "and  conduct  and \n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -22076,7 +22076,7 @@
     "text": "the  payment  of\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -22092,7 +22092,7 @@
     "text": "remuneration;\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -22108,7 +22108,7 @@
     "text": "(b)\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -22124,7 +22124,7 @@
     "text": "the  procedure  to  be  observed  at  the\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -22140,7 +22140,7 @@
     "text": "summoning and holding of meetings of the\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -22156,7 +22156,7 @@
     "text": "Authority;\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -22172,7 +22172,7 @@
     "text": "(c)\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -22188,7 +22188,7 @@
     "text": "the  management  of  the  affairs  of  the\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -22204,7 +22204,7 @@
     "text": "Authority;\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "c",
     "sub_paragraph_num": null
   },
   {
@@ -22220,7 +22220,7 @@
     "text": "(d)\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -22236,7 +22236,7 @@
     "text": "the form and manner of exercising rights of\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -22252,7 +22252,7 @@
     "text": "data subjects under Part II;\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "d",
     "sub_paragraph_num": null
   },
   {
@@ -22268,7 +22268,7 @@
     "text": "(e) criteria  for  refusal  of  the  request  of  data\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -22284,7 +22284,7 @@
     "text": "subjects under section 17.\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "e",
     "sub_paragraph_num": null
   },
   {
@@ -22300,7 +22300,7 @@
     "text": "(f) all  matters  for  which,  rules  are  required  or\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -22316,7 +22316,7 @@
     "text": "authorized to be made under this Act.\n",
     "section_num": 43,
     "subsection_num": 1,
-    "paragraph_num": null,
+    "paragraph_num": "f",
     "sub_paragraph_num": null
   },
   {
@@ -25340,7 +25340,7 @@
     "text": "(a) an  identifier  such  as  a  name,  an\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -25356,7 +25356,7 @@
     "text": "identification number, location data or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -25372,7 +25372,7 @@
     "text": "an online identifier; or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -25388,7 +25388,7 @@
     "text": "(b) one  or  more  factors  specific  to  the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25404,7 +25404,7 @@
     "text": "physical,  physiological,  genetic,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25420,7 +25420,7 @@
     "text": "psychological,  economic,  cultural  or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25436,7 +25436,7 @@
     "text": "social  identity  of  that  individual  or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25452,7 +25452,7 @@
     "text": "natural person.\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25468,7 +25468,7 @@
     "text": "\u201cpersonal data breach\u201d means, any act or omission\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25484,7 +25484,7 @@
     "text": "that  results  in  accidental  or  unlawful\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25500,7 +25500,7 @@
     "text": "destruction,  loss,  alteration,  unauthorized\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25516,7 +25516,7 @@
     "text": "disclosure  of,  or  access  to,  personal  data\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25532,7 +25532,7 @@
     "text": "transmitted, stored or otherwise processed;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25548,7 +25548,7 @@
     "text": "\u201cpersonal data revealing racial or ethnic origin\u201d\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25564,7 +25564,7 @@
     "text": "means,  any  personal  data  including\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25580,7 +25580,7 @@
     "text": "photographs that may indicate or be related\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25596,7 +25596,7 @@
     "text": "to the race or ethnicity of a natural person;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25612,7 +25612,7 @@
     "text": "\u201cprescribed\u201d  means,  prescribed  by  regulations\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25628,7 +25628,7 @@
     "text": "made under this Act;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25644,7 +25644,7 @@
     "text": "\u201cprocessing\u201d means, any operation performed on\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25660,7 +25660,7 @@
     "text": "personal  data  including  but  not  limited  to\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25676,7 +25676,7 @@
     "text": "collection,  storage,  preservation,  alteration,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25692,7 +25692,7 @@
     "text": "retrieval,  disclosure,  transmission,  making\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25708,7 +25708,7 @@
     "text": "available,  erasure,  destruction  of,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25724,7 +25724,7 @@
     "text": "consultation, alignment, combination, or the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25740,7 +25740,7 @@
     "text": "carrying  out  of  logical  or  arithmetical\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25756,7 +25756,7 @@
     "text": "operations on personal data;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25772,7 +25772,7 @@
     "text": "\u201cprocessor\u201d means, a natural or legal person, public\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25788,7 +25788,7 @@
     "text": "authority  or  other  entity  established  by  or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25804,7 +25804,7 @@
     "text": "under written law, which processes personal\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25820,7 +25820,7 @@
     "text": "data on behalf of the controller;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25836,7 +25836,7 @@
     "text": "for the avoidance of doubt, a processor shall\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25852,7 +25852,7 @@
     "text": "be  a  separate  entity  or  person  from  the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25868,7 +25868,7 @@
     "text": "controller  and  not  a  person  subject  to  any\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25884,7 +25884,7 @@
     "text": "hierarchical  control  of  the  controller  and\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25900,7 +25900,7 @@
     "text": "excludes  processing  that  is  done  internally\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25916,7 +25916,7 @@
     "text": "such as one department processing for another,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25932,7 +25932,7 @@
     "text": "or an employee processing data on behalf of\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25948,7 +25948,7 @@
     "text": "their employer;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25964,7 +25964,7 @@
     "text": "Illustration:  Hospital  A,  employs  a  data\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25980,7 +25980,7 @@
     "text": "scientist  as  an  employee  to  manage  its\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -25996,7 +25996,7 @@
     "text": "analysis of patient records. The Hospital has\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26012,7 +26012,7 @@
     "text": "decided to store its patient records on a third-\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26028,7 +26028,7 @@
     "text": "party  local  cloud  platform  hosted  by\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26044,7 +26044,7 @@
     "text": "Company B. Hospital A is the controller, and\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26060,7 +26060,7 @@
     "text": "the  Company  B  is  the  processor  where\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26076,7 +26076,7 @@
     "text": "management of patient records are concerned.\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26092,7 +26092,7 @@
     "text": "The data scientist of the hospital is only an\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26108,7 +26108,7 @@
     "text": "employee  of  the  controller  and  not  a\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26124,7 +26124,7 @@
     "text": "processor.\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26140,7 +26140,7 @@
     "text": "\u201cprofiling\u201d means, processing of personal data to\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26156,7 +26156,7 @@
     "text": "evaluate,  analyse  or  predict  aspects\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26172,7 +26172,7 @@
     "text": "concerning  that  data  subject\u2019s  performance\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26188,7 +26188,7 @@
     "text": "at work, economic situation, health, personal\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26204,7 +26204,7 @@
     "text": "preferences,  interests,  credibility,  behavior,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26220,7 +26220,7 @@
     "text": "habits, location or movements;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26236,7 +26236,7 @@
     "text": "\u201cpseudonymisation\u201d  means,  the  processing  of\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26252,7 +26252,7 @@
     "text": "personal  data  in  such  a  manner  that  the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26268,7 +26268,7 @@
     "text": "personal  data  cannot  be  used  to  identify  a\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26284,7 +26284,7 @@
     "text": "data  subject  without  the  use  of  additional\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26300,7 +26300,7 @@
     "text": "information and such additional information\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26316,7 +26316,7 @@
     "text": "is kept separately and is subject to technical\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26332,7 +26332,7 @@
     "text": "and  organizational  measures  to  ensure  that\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26348,7 +26348,7 @@
     "text": "the personal data is not attributed to a data\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26364,7 +26364,7 @@
     "text": "subject;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26380,7 +26380,7 @@
     "text": "\u201cpublic  authority\u201d  means,  a  Ministry,  any\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26396,7 +26396,7 @@
     "text": "Department  or    Provincial  Council,  local\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26412,7 +26412,7 @@
     "text": "authority, public corporation, statutory body\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26428,7 +26428,7 @@
     "text": "or any institution established by any written\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26444,7 +26444,7 @@
     "text": "law, or a Ministry, any Department or other\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26460,7 +26460,7 @@
     "text": "authority or institution established or created\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26476,7 +26476,7 @@
     "text": "35\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26492,7 +26492,7 @@
     "text": "by  a  Provincial  Council,  and  includes  a\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26508,7 +26508,7 @@
     "text": "company registered under the Companies Act,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26524,7 +26524,7 @@
     "text": "No. 7 of 2007 in which the government or a\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26540,7 +26540,7 @@
     "text": "public  corporation  or  a  local  authority\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26556,7 +26556,7 @@
     "text": "directly holds fifty per centum or more of the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26572,7 +26572,7 @@
     "text": "shares of that company;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26588,7 +26588,7 @@
     "text": "\u201crelevant  regulatory  or  statutory  body\u201d  means,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26604,7 +26604,7 @@
     "text": "the regulatory or statutory body established\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26620,7 +26620,7 @@
     "text": "by or under any written law which regulates,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26636,7 +26636,7 @@
     "text": "authorizes  or  supervises  the  controller  and\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26652,7 +26652,7 @@
     "text": "includes  a  Ministry  which  carries  out  the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26668,7 +26668,7 @@
     "text": "supervisory  functions  for  the  purpose  of\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26684,7 +26684,7 @@
     "text": "sections 26, 27 and 33 of this Act;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26700,7 +26700,7 @@
     "text": "\u201crecipient\u201d  means,  a  natural  or  legal  person  to\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26716,7 +26716,7 @@
     "text": "whom  the  personal  data  is  disclosed,  or  a\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26732,7 +26732,7 @@
     "text": "public  Authority  or  any  incorporated  or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26748,7 +26748,7 @@
     "text": "unincorporated  body  to  which  the  personal\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26764,7 +26764,7 @@
     "text": "data is disclosed;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26780,7 +26780,7 @@
     "text": "\u201cspecial categories of personal data\u201d means, the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26796,7 +26796,7 @@
     "text": "personal data revealing racial or ethnic origin,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26812,7 +26812,7 @@
     "text": "political opinions, religious or philosophical\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26828,7 +26828,7 @@
     "text": "beliefs,  financial  data,  the  processing  of\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26844,7 +26844,7 @@
     "text": "genetic data, biometric data for the purpose\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26860,7 +26860,7 @@
     "text": "of uniquely identifying a natural person, data\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26876,7 +26876,7 @@
     "text": "concerning  health  or  data  concerning  a\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26892,7 +26892,7 @@
     "text": "natural person\u2019s sex life or sexual orientation,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26908,7 +26908,7 @@
     "text": "personal  data  relating  to  offences,  criminal\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26924,7 +26924,7 @@
     "text": "proceedings and convictions, or personal data\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26940,7 +26940,7 @@
     "text": "relating to a child;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26956,7 +26956,7 @@
     "text": "\u201cSri  Lanka\u201d  means,  the  territorial  limits  of  Sri\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26972,7 +26972,7 @@
     "text": "Lanka  as  stipulated  by  Article  5  of  the\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -26988,7 +26988,7 @@
     "text": "Constitution  and  includes  the  territorial\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27004,7 +27004,7 @@
     "text": "waters or air space of Sri Lanka, any ship or\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27020,7 +27020,7 @@
     "text": "aircraft registered in Sri Lanka, any location\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27036,7 +27036,7 @@
     "text": "within the premises of a Sri Lankan mission\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27052,7 +27052,7 @@
     "text": "35\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27068,7 +27068,7 @@
     "text": "or the residence of the Head of such mission,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27084,7 +27084,7 @@
     "text": "diplomatic agent or any other member of such\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27100,7 +27100,7 @@
     "text": "mission, situated outside Sri Lanka; or within\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27116,7 +27116,7 @@
     "text": "any premises occupied on behalf of, or under\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27132,7 +27132,7 @@
     "text": "the control of, the Government of Sri Lanka,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27148,7 +27148,7 @@
     "text": "or any statutory body established in Sri Lanka\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27164,7 +27164,7 @@
     "text": "and situated outside Sri Lanka;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27180,7 +27180,7 @@
     "text": "\u201cthird country\u201d means, a country prescribed under\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27196,7 +27196,7 @@
     "text": "section 26 for the purpose of cross-border data\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27212,7 +27212,7 @@
     "text": "flow;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27228,7 +27228,7 @@
     "text": "\u201cthird  party\u201d  means,  a  natural  or  legal  person,\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27244,7 +27244,7 @@
     "text": "public authority, agency or body other than\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27260,7 +27260,7 @@
     "text": "the  data  subject,  controller,  processor  and\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27276,7 +27276,7 @@
     "text": "persons who are under the direct authority of\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27292,7 +27292,7 @@
     "text": "the controller or processor, are authorized to\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27308,7 +27308,7 @@
     "text": "process personal data;\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27324,7 +27324,7 @@
     "text": "\u201cwritten\u201d includes a document written manually\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -27340,7 +27340,7 @@
     "text": "or electronically.\n",
     "section_num": 47,
     "subsection_num": null,
-    "paragraph_num": null,
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -28236,8 +28236,8 @@
     "text": "(i) processing  in  situations  where  the  data  subject  is  a\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
-    "sub_paragraph_num": "i"
+    "paragraph_num": "i",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 47,
@@ -28252,8 +28252,8 @@
     "text": "client  or  in  the  service  of  the  controller;\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
-    "sub_paragraph_num": "i"
+    "paragraph_num": "i",
+    "sub_paragraph_num": null
   },
   {
     "i_page": 47,
@@ -28268,7 +28268,7 @@
     "text": "(ii) whether a data subject reasonably expects at the time\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "ii"
   },
   {
@@ -28284,7 +28284,7 @@
     "text": "and  in  the  context  of  the  collection  of  the  personal\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "ii"
   },
   {
@@ -28300,7 +28300,7 @@
     "text": "data  that  processing  for  that  purpose  may  take  place;\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "ii"
   },
   {
@@ -28316,7 +28316,7 @@
     "text": "(iii) processing  of  personal  data    is  strictly  necessary  for\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iii"
   },
   {
@@ -28332,7 +28332,7 @@
     "text": "the  purposes  of  preventing  fraud;\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iii"
   },
   {
@@ -28348,7 +28348,7 @@
     "text": "(iv) processing  of  personal  data  to  the  extent  strictly\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iv"
   },
   {
@@ -28364,7 +28364,7 @@
     "text": "necessary  and  proportionate  for  the  purposes  of\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iv"
   },
   {
@@ -28380,7 +28380,7 @@
     "text": "ensuring  network  and  information  security.\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iv"
   },
   {
@@ -28396,7 +28396,7 @@
     "text": "(Section  5  (b))\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iv"
   },
   {
@@ -28412,7 +28412,7 @@
     "text": "SCHEDULE II\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iv"
   },
   {
@@ -28428,7 +28428,7 @@
     "text": "CONDITIONS FOR PROCESSING SPECIAL CATEGORIES OF PERSONAL DATA\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "h",
+    "paragraph_num": "i",
     "sub_paragraph_num": "iv"
   },
   {
@@ -31436,7 +31436,7 @@
     "text": "(a)\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -31452,7 +31452,7 @@
     "text": "the  controller  has  established  the  fact    that  the  data\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -31468,7 +31468,7 @@
     "text": "subject has already been provided with  or made aware\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -31484,7 +31484,7 @@
     "text": "of  the  information;  or\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "a",
     "sub_paragraph_num": null
   },
   {
@@ -31500,7 +31500,7 @@
     "text": "(b)\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31516,7 +31516,7 @@
     "text": "the  provision  of  such  information  proves  impossible\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31532,7 +31532,7 @@
     "text": "or  would  involve  a  disproportionate  effort,  in\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31548,7 +31548,7 @@
     "text": "particular  for  processing  for  archival  purposes  in  the\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31564,7 +31564,7 @@
     "text": "public  interest  in  the  manner  provided  for  by  any\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31580,7 +31580,7 @@
     "text": "written  law,  scientific  research,  historical  research  or\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31596,7 +31596,7 @@
     "text": "statistical  research  purposes,  subject  to  the  conditions\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31612,7 +31612,7 @@
     "text": "and  safeguards  provided  in  this  Act  or  in  so  far  as  the\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31628,7 +31628,7 @@
     "text": "obligation  referred  to  in  item  1  of  this  Schedule  is\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31644,7 +31644,7 @@
     "text": "likely  to  render  impossible  or  seriously  impair  the\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31660,7 +31660,7 @@
     "text": "achievement  of  the  objectives  of  that  processing.\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31676,7 +31676,7 @@
     "text": "In  such  cases  the  controller  shall  take  appropriate\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31692,7 +31692,7 @@
     "text": "measures  to  protect  the  rights  and  freedoms  of  data\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31708,7 +31708,7 @@
     "text": "subject  protected  under  any  written  law,  including\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31724,7 +31724,7 @@
     "text": "making  the  relevant  information  publicly  available;\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {
@@ -31740,7 +31740,7 @@
     "text": "or\n",
     "section_num": 48,
     "subsection_num": null,
-    "paragraph_num": "c",
+    "paragraph_num": "b",
     "sub_paragraph_num": null
   },
   {

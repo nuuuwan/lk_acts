@@ -144,17 +144,17 @@
                     "services with specific targeting of data",
                     "subjects in Sri Lanka; or"
                   ]
-                },
-                {
-                  "sub_paragraph_num": "v",
-                  "textlines": [
-                    "(v) specifically monitors the behaviour of data",
-                    "subjects in Sri Lanka including profiling with",
-                    "the intention of making decisions in relation",
-                    "to the behavior of such data subjects in so far",
-                    "as such behaviour takes place in Sri Lanka."
-                  ]
                 }
+              ]
+            },
+            {
+              "paragraph_num": "v",
+              "textlines": [
+                "(v) specifically monitors the behaviour of data",
+                "subjects in Sri Lanka including profiling with",
+                "the intention of making decisions in relation",
+                "to the behavior of such data subjects in so far",
+                "as such behaviour takes place in Sri Lanka."
               ]
             }
           ]
@@ -188,11 +188,23 @@
         {
           "subsection_num": 3,
           "textlines": [
-            "(3) This Act shall not apply to-",
-            "(a) any personal data processed purely for private,",
-            "domestic or household purposes by an",
-            "individual; and",
-            "(b) any data other than personal data."
+            "(3) This Act shall not apply to-"
+          ],
+          "paragraphs": [
+            {
+              "paragraph_num": "a",
+              "textlines": [
+                "(a) any personal data processed purely for private,",
+                "domestic or household purposes by an",
+                "individual; and"
+              ]
+            },
+            {
+              "paragraph_num": "b",
+              "textlines": [
+                "(b) any data other than personal data."
+              ]
+            }
           ]
         }
       ]
@@ -996,40 +1008,94 @@
         {
           "subsection_num": 1,
           "textlines": [
-            "(1) Where a controller-",
-            "(a) has not refrained from further processing of",
-            "personal data under section 14; or",
-            "(b) has refused to rectify or complete personal",
-            "data under section 15; or",
-            "(c) has refused to erase personal data under",
-            "section 16; or",
-            "(d) has refused the request of the data subject",
-            "under section 17(2); or",
-            "(e) has refused the request to review a decision",
-            "based solely on automated processing under",
-            "section 18(1),",
-            "the data subject may, appeal against such decision in the",
-            "form, manner and within such period of time as may be",
-            "prescribed."
+            "(1) Where a controller-"
+          ],
+          "paragraphs": [
+            {
+              "paragraph_num": "a",
+              "textlines": [
+                "(a) has not refrained from further processing of",
+                "personal data under section 14; or"
+              ]
+            },
+            {
+              "paragraph_num": "b",
+              "textlines": [
+                "(b) has refused to rectify or complete personal",
+                "data under section 15; or"
+              ]
+            },
+            {
+              "paragraph_num": "c",
+              "textlines": [
+                "(c) has refused to erase personal data under",
+                "section 16; or"
+              ]
+            },
+            {
+              "paragraph_num": "d",
+              "textlines": [
+                "(d) has refused the request of the data subject",
+                "under section 17(2); or"
+              ]
+            },
+            {
+              "paragraph_num": "e",
+              "textlines": [
+                "(e) has refused the request to review a decision",
+                "based solely on automated processing under",
+                "section 18(1),",
+                "the data subject may, appeal against such decision in the",
+                "form, manner and within such period of time as may be",
+                "prescribed."
+              ]
+            }
           ]
         },
         {
           "subsection_num": 2,
           "textlines": [
-            "(2) The Authority may determine whether the -",
-            "(a) decision of the controller to refrain from",
-            "further processing of personal data under",
-            "section 14 was lawful;",
-            "(b) decision of the controller to refuse to rectify",
-            "or complete personal data under section 15",
-            "was lawful;",
-            "(c) decision of the controller to refuse the erasure",
-            "of personal data under section 16 was lawful;",
-            "(d) refusal under section 17(2) by the controller",
-            "was lawful;",
-            "(e) refusal to review a decision based solely on",
-            "automated processing under section 18(1)",
-            "was lawful."
+            "(2) The Authority may determine whether the -"
+          ],
+          "paragraphs": [
+            {
+              "paragraph_num": "a",
+              "textlines": [
+                "(a) decision of the controller to refrain from",
+                "further processing of personal data under",
+                "section 14 was lawful;"
+              ]
+            },
+            {
+              "paragraph_num": "b",
+              "textlines": [
+                "(b) decision of the controller to refuse to rectify",
+                "or complete personal data under section 15",
+                "was lawful;"
+              ]
+            },
+            {
+              "paragraph_num": "c",
+              "textlines": [
+                "(c) decision of the controller to refuse the erasure",
+                "of personal data under section 16 was lawful;"
+              ]
+            },
+            {
+              "paragraph_num": "d",
+              "textlines": [
+                "(d) refusal under section 17(2) by the controller",
+                "was lawful;"
+              ]
+            },
+            {
+              "paragraph_num": "e",
+              "textlines": [
+                "(e) refusal to review a decision based solely on",
+                "automated processing under section 18(1)",
+                "was lawful."
+              ]
+            }
           ]
         },
         {
@@ -1391,16 +1457,33 @@
         {
           "subsection_num": 2,
           "textlines": [
-            "(2) The Authority shall provide for-",
-            "(a) the circumstances where the Authority shall",
-            "be notified of such data breach;",
-            "(b) the circumstances where the affected data",
-            "subject shall be notified; and",
-            "(c) the form, and manner of making such",
-            "notification, and the information which shall",
-            "be provided in such notification relating to",
-            "the data breach,",
-            "by way of rules made under this Act."
+            "(2) The Authority shall provide for-"
+          ],
+          "paragraphs": [
+            {
+              "paragraph_num": "a",
+              "textlines": [
+                "(a) the circumstances where the Authority shall",
+                "be notified of such data breach;"
+              ]
+            },
+            {
+              "paragraph_num": "b",
+              "textlines": [
+                "(b) the circumstances where the affected data",
+                "subject shall be notified; and"
+              ]
+            },
+            {
+              "paragraph_num": "c",
+              "textlines": [
+                "(c) the form, and manner of making such",
+                "notification, and the information which shall",
+                "be provided in such notification relating to",
+                "the data breach,",
+                "by way of rules made under this Act."
+              ]
+            }
           ]
         }
       ]
@@ -1614,17 +1697,17 @@
               "textlines": [
                 "(b) Any adequacy decision made by the Minister under",
                 "this subsection shall-"
-              ]
-            },
-            {
-              "paragraph_num": "i",
-              "textlines": [
-                "(i) be subject to periodic monitoring of the",
-                "developments in a third country that may affect",
-                "such decisions and the Minister may review such",
-                "decision at least every two years; and"
               ],
               "sub_paragraphs": [
+                {
+                  "sub_paragraph_num": "i",
+                  "textlines": [
+                    "(i) be subject to periodic monitoring of the",
+                    "developments in a third country that may affect",
+                    "such decisions and the Minister may review such",
+                    "decision at least every two years; and"
+                  ]
+                },
                 {
                   "sub_paragraph_num": "ii",
                   "textlines": [
@@ -2311,7 +2394,12 @@
               "textlines": [
                 "(b) has contravened or failed to comply with or is likely",
                 "to contravene or, fails to comply with the provisions",
-                "of this Act or any rule under paragraph (d), (e) and",
+                "of this Act or any rule under paragraph (d), (e) and"
+              ]
+            },
+            {
+              "paragraph_num": "f",
+              "textlines": [
                 "(f) of section 43, any regulation, guideline or Order",
                 "made under this Act or under any other written law",
                 "relating to the processing of personal data,",
@@ -2805,27 +2893,59 @@
         {
           "subsection_num": 1,
           "textlines": [
-            "(1) The Authority shall make rules in respect of-",
-            "(a)",
-            "the appointment, employment and dismissal",
-            "of various officers and their powers, functions",
-            "and conduct and",
-            "the payment of",
-            "remuneration;",
-            "(b)",
-            "the procedure to be observed at the",
-            "summoning and holding of meetings of the",
-            "Authority;",
-            "(c)",
-            "the management of the affairs of the",
-            "Authority;",
-            "(d)",
-            "the form and manner of exercising rights of",
-            "data subjects under Part II;",
-            "(e) criteria for refusal of the request of data",
-            "subjects under section 17.",
-            "(f) all matters for which, rules are required or",
-            "authorized to be made under this Act."
+            "(1) The Authority shall make rules in respect of-"
+          ],
+          "paragraphs": [
+            {
+              "paragraph_num": "a",
+              "textlines": [
+                "(a)",
+                "the appointment, employment and dismissal",
+                "of various officers and their powers, functions",
+                "and conduct and",
+                "the payment of",
+                "remuneration;"
+              ]
+            },
+            {
+              "paragraph_num": "b",
+              "textlines": [
+                "(b)",
+                "the procedure to be observed at the",
+                "summoning and holding of meetings of the",
+                "Authority;"
+              ]
+            },
+            {
+              "paragraph_num": "c",
+              "textlines": [
+                "(c)",
+                "the management of the affairs of the",
+                "Authority;"
+              ]
+            },
+            {
+              "paragraph_num": "d",
+              "textlines": [
+                "(d)",
+                "the form and manner of exercising rights of",
+                "data subjects under Part II;"
+              ]
+            },
+            {
+              "paragraph_num": "e",
+              "textlines": [
+                "(e) criteria for refusal of the request of data",
+                "subjects under section 17."
+              ]
+            },
+            {
+              "paragraph_num": "f",
+              "textlines": [
+                "(f) all matters for which, rules are required or",
+                "authorized to be made under this Act."
+              ]
+            }
           ]
         },
         {
@@ -3147,135 +3267,152 @@
         "45 of the Constitution;",
         "\"personal data\" means, any information that can",
         "identify a data subject directly or indirectly,",
-        "by reference to-",
-        "(a) an identifier such as a name, an",
-        "identification number, location data or",
-        "an online identifier; or",
-        "(b) one or more factors specific to the",
-        "physical, physiological, genetic,",
-        "psychological, economic, cultural or",
-        "social identity of that individual or",
-        "natural person.",
-        "\"personal data breach\" means, any act or omission",
-        "that results in accidental or unlawful",
-        "destruction, loss, alteration, unauthorized",
-        "disclosure of, or access to, personal data",
-        "transmitted, stored or otherwise processed;",
-        "\"personal data revealing racial or ethnic origin\"",
-        "means, any personal data including",
-        "photographs that may indicate or be related",
-        "to the race or ethnicity of a natural person;",
-        "\"prescribed\" means, prescribed by regulations",
-        "made under this Act;",
-        "\"processing\" means, any operation performed on",
-        "personal data including but not limited to",
-        "collection, storage, preservation, alteration,",
-        "retrieval, disclosure, transmission, making",
-        "available, erasure, destruction of,",
-        "consultation, alignment, combination, or the",
-        "carrying out of logical or arithmetical",
-        "operations on personal data;",
-        "\"processor\" means, a natural or legal person, public",
-        "authority or other entity established by or",
-        "under written law, which processes personal",
-        "data on behalf of the controller;",
-        "for the avoidance of doubt, a processor shall",
-        "be a separate entity or person from the",
-        "controller and not a person subject to any",
-        "hierarchical control of the controller and",
-        "excludes processing that is done internally",
-        "such as one department processing for another,",
-        "or an employee processing data on behalf of",
-        "their employer;",
-        "Illustration: Hospital A, employs a data",
-        "scientist as an employee to manage its",
-        "analysis of patient records. The Hospital has",
-        "decided to store its patient records on a third-",
-        "party local cloud platform hosted by",
-        "Company B. Hospital A is the controller, and",
-        "the Company B is the processor where",
-        "management of patient records are concerned.",
-        "The data scientist of the hospital is only an",
-        "employee of the controller and not a",
-        "processor.",
-        "\"profiling\" means, processing of personal data to",
-        "evaluate, analyse or predict aspects",
-        "concerning that data subject's performance",
-        "at work, economic situation, health, personal",
-        "preferences, interests, credibility, behavior,",
-        "habits, location or movements;",
-        "\"pseudonymisation\" means, the processing of",
-        "personal data in such a manner that the",
-        "personal data cannot be used to identify a",
-        "data subject without the use of additional",
-        "information and such additional information",
-        "is kept separately and is subject to technical",
-        "and organizational measures to ensure that",
-        "the personal data is not attributed to a data",
-        "subject;",
-        "\"public authority\" means, a Ministry, any",
-        "Department or Provincial Council, local",
-        "authority, public corporation, statutory body",
-        "or any institution established by any written",
-        "law, or a Ministry, any Department or other",
-        "authority or institution established or created",
-        "35",
-        "by a Provincial Council, and includes a",
-        "company registered under the Companies Act,",
-        "No. 7 of 2007 in which the government or a",
-        "public corporation or a local authority",
-        "directly holds fifty per centum or more of the",
-        "shares of that company;",
-        "\"relevant regulatory or statutory body\" means,",
-        "the regulatory or statutory body established",
-        "by or under any written law which regulates,",
-        "authorizes or supervises the controller and",
-        "includes a Ministry which carries out the",
-        "supervisory functions for the purpose of",
-        "sections 26, 27 and 33 of this Act;",
-        "\"recipient\" means, a natural or legal person to",
-        "whom the personal data is disclosed, or a",
-        "public Authority or any incorporated or",
-        "unincorporated body to which the personal",
-        "data is disclosed;",
-        "\"special categories of personal data\" means, the",
-        "personal data revealing racial or ethnic origin,",
-        "political opinions, religious or philosophical",
-        "beliefs, financial data, the processing of",
-        "genetic data, biometric data for the purpose",
-        "of uniquely identifying a natural person, data",
-        "concerning health or data concerning a",
-        "natural person's sex life or sexual orientation,",
-        "personal data relating to offences, criminal",
-        "proceedings and convictions, or personal data",
-        "relating to a child;",
-        "\"Sri Lanka\" means, the territorial limits of Sri",
-        "Lanka as stipulated by Article 5 of the",
-        "Constitution and includes the territorial",
-        "waters or air space of Sri Lanka, any ship or",
-        "aircraft registered in Sri Lanka, any location",
-        "within the premises of a Sri Lankan mission",
-        "35",
-        "or the residence of the Head of such mission,",
-        "diplomatic agent or any other member of such",
-        "mission, situated outside Sri Lanka; or within",
-        "any premises occupied on behalf of, or under",
-        "the control of, the Government of Sri Lanka,",
-        "or any statutory body established in Sri Lanka",
-        "and situated outside Sri Lanka;",
-        "\"third country\" means, a country prescribed under",
-        "section 26 for the purpose of cross-border data",
-        "flow;",
-        "\"third party\" means, a natural or legal person,",
-        "public authority, agency or body other than",
-        "the data subject, controller, processor and",
-        "persons who are under the direct authority of",
-        "the controller or processor, are authorized to",
-        "process personal data;",
-        "\"written\" includes a document written manually",
-        "or electronically."
+        "by reference to-"
       ],
-      "subsections": []
+      "subsections": [
+        {
+          "subsection_num": "dummy",
+          "textlines": [],
+          "paragraphs": [
+            {
+              "paragraph_num": "a",
+              "textlines": [
+                "(a) an identifier such as a name, an",
+                "identification number, location data or",
+                "an online identifier; or"
+              ]
+            },
+            {
+              "paragraph_num": "b",
+              "textlines": [
+                "(b) one or more factors specific to the",
+                "physical, physiological, genetic,",
+                "psychological, economic, cultural or",
+                "social identity of that individual or",
+                "natural person.",
+                "\"personal data breach\" means, any act or omission",
+                "that results in accidental or unlawful",
+                "destruction, loss, alteration, unauthorized",
+                "disclosure of, or access to, personal data",
+                "transmitted, stored or otherwise processed;",
+                "\"personal data revealing racial or ethnic origin\"",
+                "means, any personal data including",
+                "photographs that may indicate or be related",
+                "to the race or ethnicity of a natural person;",
+                "\"prescribed\" means, prescribed by regulations",
+                "made under this Act;",
+                "\"processing\" means, any operation performed on",
+                "personal data including but not limited to",
+                "collection, storage, preservation, alteration,",
+                "retrieval, disclosure, transmission, making",
+                "available, erasure, destruction of,",
+                "consultation, alignment, combination, or the",
+                "carrying out of logical or arithmetical",
+                "operations on personal data;",
+                "\"processor\" means, a natural or legal person, public",
+                "authority or other entity established by or",
+                "under written law, which processes personal",
+                "data on behalf of the controller;",
+                "for the avoidance of doubt, a processor shall",
+                "be a separate entity or person from the",
+                "controller and not a person subject to any",
+                "hierarchical control of the controller and",
+                "excludes processing that is done internally",
+                "such as one department processing for another,",
+                "or an employee processing data on behalf of",
+                "their employer;",
+                "Illustration: Hospital A, employs a data",
+                "scientist as an employee to manage its",
+                "analysis of patient records. The Hospital has",
+                "decided to store its patient records on a third-",
+                "party local cloud platform hosted by",
+                "Company B. Hospital A is the controller, and",
+                "the Company B is the processor where",
+                "management of patient records are concerned.",
+                "The data scientist of the hospital is only an",
+                "employee of the controller and not a",
+                "processor.",
+                "\"profiling\" means, processing of personal data to",
+                "evaluate, analyse or predict aspects",
+                "concerning that data subject's performance",
+                "at work, economic situation, health, personal",
+                "preferences, interests, credibility, behavior,",
+                "habits, location or movements;",
+                "\"pseudonymisation\" means, the processing of",
+                "personal data in such a manner that the",
+                "personal data cannot be used to identify a",
+                "data subject without the use of additional",
+                "information and such additional information",
+                "is kept separately and is subject to technical",
+                "and organizational measures to ensure that",
+                "the personal data is not attributed to a data",
+                "subject;",
+                "\"public authority\" means, a Ministry, any",
+                "Department or Provincial Council, local",
+                "authority, public corporation, statutory body",
+                "or any institution established by any written",
+                "law, or a Ministry, any Department or other",
+                "authority or institution established or created",
+                "35",
+                "by a Provincial Council, and includes a",
+                "company registered under the Companies Act,",
+                "No. 7 of 2007 in which the government or a",
+                "public corporation or a local authority",
+                "directly holds fifty per centum or more of the",
+                "shares of that company;",
+                "\"relevant regulatory or statutory body\" means,",
+                "the regulatory or statutory body established",
+                "by or under any written law which regulates,",
+                "authorizes or supervises the controller and",
+                "includes a Ministry which carries out the",
+                "supervisory functions for the purpose of",
+                "sections 26, 27 and 33 of this Act;",
+                "\"recipient\" means, a natural or legal person to",
+                "whom the personal data is disclosed, or a",
+                "public Authority or any incorporated or",
+                "unincorporated body to which the personal",
+                "data is disclosed;",
+                "\"special categories of personal data\" means, the",
+                "personal data revealing racial or ethnic origin,",
+                "political opinions, religious or philosophical",
+                "beliefs, financial data, the processing of",
+                "genetic data, biometric data for the purpose",
+                "of uniquely identifying a natural person, data",
+                "concerning health or data concerning a",
+                "natural person's sex life or sexual orientation,",
+                "personal data relating to offences, criminal",
+                "proceedings and convictions, or personal data",
+                "relating to a child;",
+                "\"Sri Lanka\" means, the territorial limits of Sri",
+                "Lanka as stipulated by Article 5 of the",
+                "Constitution and includes the territorial",
+                "waters or air space of Sri Lanka, any ship or",
+                "aircraft registered in Sri Lanka, any location",
+                "within the premises of a Sri Lankan mission",
+                "35",
+                "or the residence of the Head of such mission,",
+                "diplomatic agent or any other member of such",
+                "mission, situated outside Sri Lanka; or within",
+                "any premises occupied on behalf of, or under",
+                "the control of, the Government of Sri Lanka,",
+                "or any statutory body established in Sri Lanka",
+                "and situated outside Sri Lanka;",
+                "\"third country\" means, a country prescribed under",
+                "section 26 for the purpose of cross-border data",
+                "flow;",
+                "\"third party\" means, a natural or legal person,",
+                "public authority, agency or body other than",
+                "the data subject, controller, processor and",
+                "persons who are under the direct authority of",
+                "the controller or processor, are authorized to",
+                "process personal data;",
+                "\"written\" includes a document written manually",
+                "or electronically."
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "section_num": 48,
@@ -3342,12 +3479,12 @@
               "paragraph_num": "h",
               "textlines": [
                 "CONDITIONS FOR CONSENT OF THE DATA SUBJECT"
-              ],
+              ]
+            },
+            {
+              "paragraph_num": "i",
+              "textlines": [],
               "sub_paragraphs": [
-                {
-                  "sub_paragraph_num": "i",
-                  "textlines": []
-                },
                 {
                   "sub_paragraph_num": "ii",
                   "textlines": []
@@ -3363,10 +3500,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "paragraph_num": "i",
-              "textlines": []
             },
             {
               "paragraph_num": "j",
