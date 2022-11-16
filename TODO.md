@@ -4,7 +4,6 @@
 
 # HEDIUM
 * Add Parts
-* Add Preamble etc.
 * Parts after sections
 
 
