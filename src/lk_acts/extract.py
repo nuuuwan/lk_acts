@@ -146,8 +146,6 @@ def fold_clauses(textlines_with_metadata):
                     paragraphs.append(paragraph)
                 else:
                     l2_textlines += l3_textlines
-            if len(paragraphs) > 0 and l2 is None:
-                l2 = 'dummy'
             if l2:
                 subclause = dict(
                     subclause_num=l2,
@@ -157,6 +155,13 @@ def fold_clauses(textlines_with_metadata):
                     subclause['paragraphs'] = paragraphs
                 subclauses.append(subclause)
             else:
+                if len(paragraphs) > 0:
+                    subclause = dict(
+                        subclause_num="dummy",
+                        text="",
+                    )
+                    subclause['paragraphs'] = paragraphs
+                    subclauses.append(subclause)
                 l1_textlines += l2_textlines
 
         if l1:
