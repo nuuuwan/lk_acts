@@ -13,6 +13,15 @@ def clean_textline(x):
 def join_textlines(textlines):
     s = ' '.join(textlines)
     s = re.sub('\\s+', ' ', s)
+    for [before, after] in [
+        [u"\u2013", "-"],
+        [u"\u2014", "-"],
+        [u"\u2019", "'"],
+        [u"\u201c", "\""],
+        [u"\u201d", "\""],
+        [u"\u2026", "-"],
+    ]:
+        s = s.replace(before, after)
     return s
 
 
