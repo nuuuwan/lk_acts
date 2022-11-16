@@ -1,10 +1,15 @@
 import os
 
+from lk_acts._utils import get_file_name
+
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
 
 
-def convert(pdf_file, page_nos, xml_file):
+def convert(config):
+    pdf_file = get_file_name(config, 'pdf')
+    page_nos = 'all'
+    xml_file = get_file_name(config, 'xml')
     cmd = ' '.join(
         [
             f'{PY_BIN} {BIN}',
@@ -17,12 +22,8 @@ def convert(pdf_file, page_nos, xml_file):
 
 
 if __name__ == '__main__':
-    from lk_acts._utils import get_file_name
+
     from lk_acts.METADATA_LIST import METADATA_LIST
 
     config = METADATA_LIST[0]
-    convert(
-        pdf_file=get_file_name(config, 'pdf'),
-        page_nos='all',
-        xml_file=get_file_name(config, 'xml'),
-    )
+    convert(config)
