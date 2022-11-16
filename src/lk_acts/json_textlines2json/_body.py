@@ -5,6 +5,8 @@ def extract_parts(textlines_with_metadata):
     idx = {}
     section_to_marginal_note = {}
     for textline in textlines_with_metadata:
+        if textline['schedule_num']:
+            break
         l0 = textline['part_num']
         l1 = textline['section_num']
         l2 = textline['subsection_num']
