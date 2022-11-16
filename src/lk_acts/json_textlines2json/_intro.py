@@ -1,6 +1,6 @@
 import re
 
-from lk_acts._utils import clean_textline, join_textlines
+from lk_acts._utils import clean_textline
 
 REGEX_PUBLISHED = (
     r'\(Published in the Gazette on'
@@ -61,15 +61,12 @@ def extract_intro_data(textlines_with_metadata):
             if font_size < 8 or font_size > 9:
                 preamble_lines.append(text)
 
-    long_title = join_textlines(long_title_lines)
-    presented_by = join_textlines(presented_by_lines)
-    preamble = join_textlines(preamble_lines)
     return dict(
         short_title=short_title,
-        long_title=long_title,
-        presented_by=presented_by,
-        date_published=date_published,
+        long_title_lines=long_title_lines,
+        presented_by_lines=presented_by_lines,
         price_lkr=price_lkr,
         postage_lkr=postage_lkr,
-        preamble=preamble,
+        date_published=date_published,
+        preamble_lines=preamble_lines,
     )

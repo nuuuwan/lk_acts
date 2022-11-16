@@ -113,17 +113,53 @@ def render_sections(sections):
     )
 
 
-def convert(config):
-    json_file = get_file_name(config, 'json')
-    html_file = get_file_name(config, 'html')
+def render_lines(lines):
+    return list(
+        map(
+            lambda line: _('p', line),
+            lines,
+        )
+    )
 
-    data = JSONFile(json_file).read()
 
+def render_intro(data):
     date_published_str = '(Published in the Gazette on %s %s, %s)' % (
         data['date_published']['month'],
         data['date_published']['day'],
         data['date_published']['year'],
     )
+
+    return _(
+        'div',
+        [
+            _('h1', data['short_title'], {'class': 'short-title'}),
+            _(
+                'div',
+                render_lines(data['long_title_lines']),
+                {'class': 'long-title'},
+            ),
+            _(
+                'p',
+                render_lines(data['presented_by_lines']),
+                {'class': 'presented-by'},
+            ),
+            _('p', date_published_str, {'class': 'date-published'}),
+            _('h3', 'Preamble', {'class': 'preamble-title'}),
+            _(
+                'p',
+                render_lines(data['preamble_lines']),
+                {'class': 'preamble'},
+            ),
+        ],
+        {'class': 'intro'},
+    )
+
+
+def convert(config):
+    json_file = get_file_name(config, 'json')
+    html_file = get_file_name(config, 'html')
+
+    data = JSONFile(json_file).read()
 
     html = _(
         'html',
@@ -146,12 +182,7 @@ def convert(config):
                         'Democratic Socialist Republic of Sri Lanka',
                         {'class': 'title-kicker'},
                     ),
-                    _('h1', data['short_title'], {'class': 'short-title'}),
-                    _('p', data['long_title'], {'class': 'long-title'}),
-                    _('p', data['presented_by'], {'class': 'presented-by'}),
-                    _('p', date_published_str, {'class': 'date-published'}),
-                    _('h3', 'Preamble', {'class': 'preamble-title'}),
-                    _('p', data['preamble'], {'class': 'preamble'}),
+                    render_intro(data),
                     render_sections(data['sections']),
                 ],
             ),

@@ -6,6 +6,10 @@ body {
   margin-top: 12px;
 }
 
+p {
+  margin: 0;
+}
+
 td {
   vertical-align: top;
   padding-bottom: 12px;
