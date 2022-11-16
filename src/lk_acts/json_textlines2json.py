@@ -10,12 +10,8 @@ REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-z])\).*'
 REGEX_SUB_PARAGRAPH = r'\((?P<sub_paragraph_num>[ivx]+)\).*'
 
 
-def clean_textline(x):
-    return x.strip()
-
-
-def join_textlines(textlines):
-    s = ' '.join(textlines)
+def clean_textline(s):
+    s = s.strip()
     s = re.sub('\\s+', ' ', s)
     for [before, after] in [
         [u"\u2013", "-"],
@@ -26,6 +22,12 @@ def join_textlines(textlines):
         [u"\u2026", "-"],
     ]:
         s = s.replace(before, after)
+    return s
+
+
+def join_textlines(textlines):
+    s = ' '.join(textlines)
+    s = clean_textline(s)
     return s
 
 
@@ -83,6 +85,18 @@ def add_metadata(textlines_original):
         )
 
     return textlines_with_metadata
+
+
+def extract_intro_data(textlines_with_metadata):
+    short_title = ''
+    long_title = ''
+    for textline in textlines_with_metadata:
+        text = clean_textline(textline['text'])
+        font_size = (float)(textline['font_size'])
+        if 16 < font_size < 17:
+            short_title = text.title()
+
+    return dict(short_title=short_title, long_title=long_title)
 
 
 def extract_sections(textlines_with_metadata):
@@ -193,7 +207,10 @@ def convert(config):
     json_file = get_file_name(config, 'json')
     textlines = JSONFile(json_textlines_file).read()
     textlines_with_metadata = add_metadata(textlines)
-    data = dict(
+
+    intro_data = extract_intro_data(textlines_with_metadata)
+
+    data = intro_data | dict(
         sections=extract_sections(textlines_with_metadata),
     )
 
