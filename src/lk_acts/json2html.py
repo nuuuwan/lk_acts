@@ -37,7 +37,11 @@ def render_sub_paragraph(sub_paragraph):
     return _(
         'div',
         [
-            _('div', sub_paragraph['text'], {'class': 'sub_paragraph-text'}),
+            _(
+                'div',
+                render_lines(sub_paragraph['textlines']),
+                {'class': 'sub_paragraph-text'},
+            ),
         ],
         {'class': 'sub-paragraph'},
     )
@@ -47,7 +51,11 @@ def render_paragraph(paragraph):
     return _(
         'div',
         [
-            _('div', paragraph['text'], {'class': 'paragraph-text'}),
+            _(
+                'div',
+                render_lines(paragraph['textlines']),
+                {'class': 'paragraph-text'},
+            ),
         ]
         + [
             render_sub_paragraph(sub_paragraph)
@@ -61,7 +69,11 @@ def render_subsection(subsection):
     return _(
         'div',
         [
-            _('div', subsection['text'], {'class': 'subsection-text'}),
+            _(
+                'div',
+                render_lines(subsection['textlines']),
+                {'class': 'subsection-text'},
+            ),
         ]
         + [
             render_paragraph(paragraph)
@@ -83,7 +95,7 @@ def render_section(section):
                         [
                             _(
                                 'div',
-                                section['text'],
+                                render_lines(section['textlines']),
                                 {'class': 'section-text'},
                             ),
                         ]

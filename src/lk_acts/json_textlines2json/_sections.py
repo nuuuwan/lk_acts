@@ -47,7 +47,7 @@ def extract_sections(textlines_with_metadata):
                         sub_paragraphs.append(
                             dict(
                                 sub_paragraph_num=l4,
-                                text=join_textlines(textlines),
+                                textlines=textlines,
                             )
                         )
                     else:
@@ -56,7 +56,7 @@ def extract_sections(textlines_with_metadata):
                 if l3:
                     paragraph = dict(
                         paragraph_num=l3,
-                        text=join_textlines(l3_textlines),
+                        textlines=l3_textlines,
                     )
                     if sub_paragraphs:
                         paragraph['sub_paragraphs'] = sub_paragraphs
@@ -66,7 +66,7 @@ def extract_sections(textlines_with_metadata):
             if l2:
                 subsection = dict(
                     subsection_num=l2,
-                    text=join_textlines(l2_textlines),
+                    textlines=l2_textlines,
                 )
                 if paragraphs:
                     subsection['paragraphs'] = paragraphs
@@ -75,7 +75,7 @@ def extract_sections(textlines_with_metadata):
                 if len(paragraphs) > 0:
                     subsection = dict(
                         subsection_num="dummy",
-                        text="",
+                        textlines=[],
                     )
                     subsection['paragraphs'] = paragraphs
                     subsections.append(subsection)
@@ -87,7 +87,7 @@ def extract_sections(textlines_with_metadata):
                 marginal_note=join_textlines(
                     section_to_marginal_note.get(l1, '')
                 ),
-                text=join_textlines(l1_textlines),
+                textlines=l1_textlines,
                 subsections=subsections,
             )
             # assert section['text'].split('.')[0] == str(
