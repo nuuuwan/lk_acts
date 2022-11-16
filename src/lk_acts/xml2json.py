@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from utils import JSONFile
 
 from lk_acts import extract
+from lk_acts._utils import get_file_name
 
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
@@ -120,18 +121,16 @@ def parse(tree):
     return parse_pages(tree.getroot())
 
 
-def convert(xml_file, json_file, prefix_data):
+def convert(config):
+    xml_file = get_file_name(config, 'xml')
+    json_file = get_file_name(config, 'json')
+
     data = parse(ET.parse(xml_file))
-    JSONFile(json_file).write(prefix_data | data)
+    JSONFile(json_file).write(config | data)
 
 
 if __name__ == '__main__':
-    convert(
-        xml_file='data/bill-2022-09-personal-data-protection.xml',
-        json_file='data/bill-2022-09-personal-data-protection.json',
-        prefix_data=dict(
-            name='Personal Data Protection',
-            year=2022,
-            num=9,
-        ),
-    )
+    from lk_acts.METADATA_LIST import METADATA_LIST
+
+    config = METADATA_LIST[0]
+    convert(config)
