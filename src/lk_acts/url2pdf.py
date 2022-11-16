@@ -7,7 +7,7 @@ def convert(config):
     url = config['url']
     pdf_file = get_file_name(config, 'pdf')
     www.download_binary(url, pdf_file)
-    log.info(f'Downloaded {url} to {pdf_file}')
+    log.info(f'{url} -> {pdf_file}')
 
 
 if __name__ == '__main__':

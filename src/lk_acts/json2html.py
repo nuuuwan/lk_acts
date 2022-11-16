@@ -1,7 +1,7 @@
 from utils import JSONFile
 from utils.xmlx import _
 
-from lk_acts._utils import get_file_name
+from lk_acts._utils import get_file_name, log
 
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
@@ -153,6 +153,7 @@ def convert(config):
         {},
     )
     html.store(html_file)
+    log.info(f'{json_file} -> {html_file}')
 
 
 if __name__ == '__main__':

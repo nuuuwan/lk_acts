@@ -1,6 +1,6 @@
 import os
 
-from lk_acts._utils import get_file_name
+from lk_acts._utils import get_file_name, log
 
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
@@ -19,6 +19,7 @@ def convert(config):
         ]
     )
     os.system(cmd)
+    log.info(f'{pdf_file} ({page_nos}) -> {xml_file}')
 
 
 if __name__ == '__main__':

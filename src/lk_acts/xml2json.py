@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from utils import JSONFile
 
 from lk_acts import extract
-from lk_acts._utils import get_file_name
+from lk_acts._utils import get_file_name, log
 
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
@@ -127,6 +127,7 @@ def convert(config):
 
     data = parse(ET.parse(xml_file))
     JSONFile(json_file).write(config | data)
+    log.info(f'{xml_file} -> {json_file}')
 
 
 if __name__ == '__main__':
