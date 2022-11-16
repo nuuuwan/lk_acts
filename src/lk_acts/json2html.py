@@ -1,6 +1,8 @@
 from utils import JSONFile
 from utils.xmlx import _
 
+from lk_acts._utils import get_file_name
+
 PY_BIN = 'python3'
 BIN = '/Library/Frameworks/Python.framework/Versions/3.10/bin/pdf2txt.py'
 
@@ -111,7 +113,10 @@ def render_clauses(clauses):
     )
 
 
-def convert(json_file, html_file):
+def convert(config):
+    json_file = get_file_name(config, 'json')
+    html_file = get_file_name(config, 'html')
+
     data = JSONFile(json_file).read()
 
     html = _(
@@ -151,7 +156,7 @@ def convert(json_file, html_file):
 
 
 if __name__ == '__main__':
-    convert(
-        json_file='data/bill-2022-09-personal-data-protection.json',
-        html_file='data/bill-2022-09-personal-data-protection.html',
-    )
+    from lk_acts.METADATA_LIST import METADATA_LIST
+
+    config = METADATA_LIST[0]
+    convert(config)
