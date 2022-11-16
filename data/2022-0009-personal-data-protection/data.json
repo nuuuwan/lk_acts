@@ -10,6 +10,8 @@
     "day": "25",
     "year": "2021"
   },
+  "price_lkr": 85,
+  "postage_lkr": 35,
   "sections": [
     {
       "section_num": 1,
