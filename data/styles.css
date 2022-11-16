@@ -16,15 +16,29 @@ td {
   color: gray;
 }
 
-.title {
+.short-title {
   margin-top: 6px;
   margin-bottom: 6px;
   color: darkgreen;
 }
 
-.sub-title {
-  margin: 0;
+.long-title {
+  margin-top: 6px;
+  margin-bottom: 6px;
   color: darkgreen;
+}
+
+.presented-by {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: darkgreen;
+  font-style: italic;
+  font-size: 80%;
+}
+
+.date-published {
+  color: darkgreen;
+  font-style: italic;
 }
 
 .section {

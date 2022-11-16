@@ -119,6 +119,12 @@ def convert(config):
 
     data = JSONFile(json_file).read()
 
+    date_published_str = '(Published in the Gazette on %s %s, %s)' % (
+        data['date_published']['month'],
+        data['date_published']['day'],
+        data['date_published']['year'],
+    )
+
     html = _(
         'html',
         [
@@ -140,12 +146,10 @@ def convert(config):
                         'Democratic Socialist Republic of Sri Lanka',
                         {'class': 'title-kicker'},
                     ),
-                    _('h1', data['name'], {'class': 'title'}),
-                    _(
-                        'h2',
-                        'No. %d of %d' % (data['num'], data['year']),
-                        {'class': 'sub-title'},
-                    ),
+                    _('h1', data['short_title'], {'class': 'short-title'}),
+                    _('p', data['long_title'], {'class': 'long-title'}),
+                    _('p', data['presented_by'], {'class': 'presented-by'}),
+                    _('p', date_published_str, {'class': 'date-published'}),
                     render_sections(data['sections']),
                 ],
             ),
