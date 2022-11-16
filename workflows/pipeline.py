@@ -1,5 +1,5 @@
-from src.lk_acts import (json2html, json_textlines2json, pdf2xml, url2pdf,
-                         xml2json_textlines)
+from src.lk_acts import json2html, pdf2xml, url2pdf, xml2json_textlines
+from src.lk_acts.json_textlines2json import json_textlines2json
 
 
 def run_all():
