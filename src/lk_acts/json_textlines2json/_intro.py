@@ -13,6 +13,7 @@ REGEX_POSTAGE = r'Postage : Rs. (?P<postage_lkr>\d+).00'
 def extract_intro_data(textlines_with_metadata):
     short_title = ''
     long_title_lines = []
+    presented_by_lines = []
     date_published = None
     price_lkr = None
     postage_lkr = None
@@ -37,6 +38,10 @@ def extract_intro_data(textlines_with_metadata):
             long_title_lines.append(text)
             continue
 
+        if 11 == font_size and not date_published:
+            presented_by_lines.append(text)
+            continue
+
         result = re.match(REGEX_PRICE, text)
         if result:
             price_lkr = (int)(result.groupdict()['price_lkr'])
@@ -48,9 +53,11 @@ def extract_intro_data(textlines_with_metadata):
             continue
 
     long_title = join_textlines(long_title_lines)
+    presented_by = join_textlines(presented_by_lines)
     return dict(
         short_title=short_title,
         long_title=long_title,
+        presented_by=presented_by,
         date_published=date_published,
         price_lkr=price_lkr,
         postage_lkr=postage_lkr,
