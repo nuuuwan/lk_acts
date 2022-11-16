@@ -1,5 +1,6 @@
 # LOW
-
+* Weird chars
+* Inconsistent indenting
 
 # HEDIUM
 * Add Parts
