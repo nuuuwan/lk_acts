@@ -57,21 +57,21 @@ def render_paragraph(paragraph):
     )
 
 
-def render_subclause(subclause):
+def render_subsection(subsection):
     return _(
         'div',
         [
-            _('div', subclause['text'], {'class': 'subclause-text'}),
+            _('div', subsection['text'], {'class': 'subsection-text'}),
         ]
         + [
             render_paragraph(paragraph)
-            for paragraph in subclause.get('paragraphs', [])
+            for paragraph in subsection.get('paragraphs', [])
         ],
-        {'class': 'subclause'},
+        {'class': 'subsection'},
     )
 
 
-def render_clause(clause):
+def render_section(section):
     return _(
         'tr',
         [
@@ -83,33 +83,33 @@ def render_clause(clause):
                         [
                             _(
                                 'div',
-                                clause['text'],
-                                {'class': 'clause-text'},
+                                section['text'],
+                                {'class': 'section-text'},
                             ),
                         ]
                         + [
-                            render_subclause(subclause)
-                            for subclause in clause['subclauses']
+                            render_subsection(subsection)
+                            for subsection in section['subsections']
                         ],
-                        {'class': 'clause-body'},
+                        {'class': 'section-body'},
                     ),
                 ],
             ),
             _(
                 'td',
-                clause['marginal_note'],
-                {'class': 'clause-marginal-note'},
+                section['marginal_note'],
+                {'class': 'section-marginal-note'},
             ),
         ],
-        {'class': 'clause'},
+        {'class': 'section'},
     )
 
 
-def render_clauses(clauses):
+def render_sections(sections):
     return _(
         'table',
-        [_('tbody', [render_clause(clause) for clause in clauses])],
-        {'class': 'clauses'},
+        [_('tbody', [render_section(section) for section in sections])],
+        {'class': 'sections'},
     )
 
 
@@ -146,7 +146,7 @@ def convert(config):
                         'No. %d of %d' % (data['num'], data['year']),
                         {'class': 'sub-title'},
                     ),
-                    render_clauses(data['clauses']),
+                    render_sections(data['sections']),
                 ],
             ),
         ],

@@ -1,7 +1,7 @@
 import re
 
-REGEX_CLAUSE = r'(?P<clause_num>\d+)\.'
-REGEX_SUBCLAUSE = r'\((?P<subclause_num>\d+)\).*'
+REGEX_SECTION = r'(?P<section_num>\d+)\.'
+REGEX_SUBSECTION = r'\((?P<subsection_num>\d+)\).*'
 REGEX_PARAGRAPH = r'\((?P<paragraph_num>[a-z])\).*'
 REGEX_SUB_PARAGRAPH = r'\((?P<sub_paragraph_num>[ivx]+)\).*'
 
@@ -32,8 +32,8 @@ def cmp_textlines(textline):
 def extract_data(textlines_original):
     textlines = sorted(textlines_original, key=cmp_textlines)
 
-    clause_num = None
-    subclause_num = None
+    section_num = None
+    subsection_num = None
     paragraph_num = None
     sub_paragraph_num = None
     textlines_with_metadata = []
@@ -43,17 +43,17 @@ def extract_data(textlines_original):
         indent = (int)(x1 / 5)
 
         if textline['class_name'] == 'normal-bold':
-            result = re.match(REGEX_CLAUSE, stripped_text)
+            result = re.match(REGEX_SECTION, stripped_text)
             if result:
-                clause_num = (int)(result.groupdict()['clause_num'])
-                subclause_num = None
+                section_num = (int)(result.groupdict()['section_num'])
+                subsection_num = None
                 paragraph_num = None
                 sub_paragraph_num = None
 
         elif textline['class_name'] == 'normal':
-            result = re.match(REGEX_SUBCLAUSE, stripped_text)
+            result = re.match(REGEX_SUBSECTION, stripped_text)
             if result:
-                subclause_num = (int)(result.groupdict()['subclause_num'])
+                subsection_num = (int)(result.groupdict()['subsection_num'])
                 paragraph_num = None
                 sub_paragraph_num = None
             else:
@@ -71,25 +71,25 @@ def extract_data(textlines_original):
         textlines_with_metadata.append(
             textline
             | dict(
-                clause_num=clause_num,
-                subclause_num=subclause_num,
+                section_num=section_num,
+                subsection_num=subsection_num,
                 paragraph_num=paragraph_num,
                 sub_paragraph_num=sub_paragraph_num,
             )
         )
 
-    clauses = fold_clauses(textlines_with_metadata)
+    sections = fold_sections(textlines_with_metadata)
     return dict(
-        clauses=clauses,
+        sections=sections,
     )
 
 
-def fold_clauses(textlines_with_metadata):
+def fold_sections(textlines_with_metadata):
     idx = {}
-    clause_to_marginal_note = {}
+    section_to_marginal_note = {}
     for textline in textlines_with_metadata:
-        l1 = textline['clause_num']
-        l2 = textline['subclause_num']
+        l1 = textline['section_num']
+        l2 = textline['subsection_num']
         l3 = textline['paragraph_num']
         l4 = textline['sub_paragraph_num']
 
@@ -104,16 +104,16 @@ def fold_clauses(textlines_with_metadata):
 
         text = clean_textline(textline['text'])
         if (float)(textline['font_size']) < 9:
-            if l1 not in clause_to_marginal_note:
-                clause_to_marginal_note[l1] = []
-            clause_to_marginal_note[l1].append(text)
+            if l1 not in section_to_marginal_note:
+                section_to_marginal_note[l1] = []
+            section_to_marginal_note[l1].append(text)
         else:
             idx[l1][l2][l3][l4].append(text)
 
-    clauses = []
+    sections = []
     for l1 in idx:
         l1_textlines = []
-        subclauses = []
+        subsections = []
 
         for l2 in idx[l1]:
             paragraphs = []
@@ -147,41 +147,41 @@ def fold_clauses(textlines_with_metadata):
                 else:
                     l2_textlines += l3_textlines
             if l2:
-                subclause = dict(
-                    subclause_num=l2,
+                subsection = dict(
+                    subsection_num=l2,
                     text=join_textlines(l2_textlines),
                 )
                 if paragraphs:
-                    subclause['paragraphs'] = paragraphs
-                subclauses.append(subclause)
+                    subsection['paragraphs'] = paragraphs
+                subsections.append(subsection)
             else:
                 if len(paragraphs) > 0:
-                    subclause = dict(
-                        subclause_num="dummy",
+                    subsection = dict(
+                        subsection_num="dummy",
                         text="",
                     )
-                    subclause['paragraphs'] = paragraphs
-                    subclauses.append(subclause)
+                    subsection['paragraphs'] = paragraphs
+                    subsections.append(subsection)
                 l1_textlines += l2_textlines
 
         if l1:
-            clause = dict(
-                clause_num=l1,
+            section = dict(
+                section_num=l1,
                 marginal_note=join_textlines(
-                    clause_to_marginal_note.get(l1, '')
+                    section_to_marginal_note.get(l1, '')
                 ),
                 text=join_textlines(l1_textlines),
-                subclauses=subclauses,
+                subsections=subsections,
             )
-            # assert clause['text'].split('.')[0] == str(
-            #     clause['clause_num']
+            # assert section['text'].split('.')[0] == str(
+            #     section['section_num']
             # ), [
-            #     clause['text'],
-            #     clause['clause_num'],
+            #     section['text'],
+            #     section['section_num'],
             # ]
 
-            if subclauses:
-                clause['subclauses'] = subclauses
+            if subsections:
+                section['subsections'] = subsections
 
-            clauses.append(clause)
-    return clauses
+            sections.append(section)
+    return sections
