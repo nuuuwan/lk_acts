@@ -32,8 +32,6 @@ def add_metadata(textlines_original):
     prev_paragraph_num = None
     for textline in textlines:
         stripped_text = textline['text'].strip()
-        x1 = (float)(textline['bbox']['x1'])
-        (int)(x1 / 5)
 
         result = re.match(REGEX_PART, stripped_text)
         if result:
