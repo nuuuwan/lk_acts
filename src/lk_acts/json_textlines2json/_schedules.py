@@ -1,4 +1,4 @@
-from lk_acts._utils import clean_textline, join_textlines
+from lk_acts._utils import join_textlines
 from lk_acts.json_textlines2json._merge_utils import merge_textlines
 
 
@@ -24,9 +24,7 @@ def extract_schedules(textlines_with_metadata):
             idx[l0][l1][l2][l3] = {}
         if l4 not in idx[l0][l1][l2][l3]:
             idx[l0][l1][l2][l3][l4] = []
-
-        text = clean_textline(textline['text'])
-        idx[l0][l1][l2][l3][l4].append(text)
+        idx[l0][l1][l2][l3][l4].append(textline)
 
     schedules = []
     for l0 in idx:

@@ -31,7 +31,7 @@ def extract_parts(textlines_with_metadata):
                 section_to_marginal_note[l1] = []
             section_to_marginal_note[l1].append(text)
         else:
-            idx[l0][l1][l2][l3][l4].append(text)
+            idx[l0][l1][l2][l3][l4].append(textline)
 
     parts = []
     for l0 in idx:
