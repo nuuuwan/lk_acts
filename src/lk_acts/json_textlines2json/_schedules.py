@@ -1,4 +1,5 @@
 from lk_acts._utils import clean_textline, join_textlines
+from lk_acts.json_textlines2json._merge_utils import merge_textlines
 
 
 def extract_schedules(textlines_with_metadata):
@@ -44,7 +45,9 @@ def extract_schedules(textlines_with_metadata):
                     sub_paragraphs = []
                     l3_textlines = []
                     for l4 in idx[l0][l1][l2][l3]:
-                        textlines = idx[l0][l1][l2][l3][l4]
+                        textlines_unmerged = idx[l0][l1][l2][l3][l4]
+                        textlines = merge_textlines(textlines_unmerged)
+
                         if l4:
                             if l1 == 5:
                                 print(l1, l2, l3, l4)
