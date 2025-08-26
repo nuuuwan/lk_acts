@@ -2173,7 +2173,7 @@ Scraped  **2,857** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 - 🟢 `30/1970` [Local Authorities Elections (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-030) (1970-11-18)
 - 🟢 `29/1970` [Ceylon (Constitution) (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-029) (1970-11-18)
 - 🔵 `28/1970` [Protection of Tenants (Special Provisions)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-028) (1970-11-18)
-- ⚪ `27/1970` [Bank Debits Tax](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-027) (1970-11-01)
+- 🟢 `27/1969` [Registration of Documents (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-027) (1970-03-12)
 - ⚪ `26/1970` [Prevention of the Avoidance of Tax](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-026) (1970-11-01)
 - ⚪ `25/1970` [Trade Union Representative (Entry into Estates)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-025) (1970-10-20)
 - 🟢 `24/1970` [Trade Unions (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-024) (1970-08-20)
