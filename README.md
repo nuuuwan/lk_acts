@@ -1,6 +1,6 @@
 # 🇱🇰 Acts from the Sri Lankan Parliament ([lk_acts](https://github.com/nuuuwan/lk_acts))
 
-Scraped  **2,858** acts (2.7 GB) from [www.parliament.lk](https://www.parliament.lk/en/acts-bills).
+Scraped  **2,859** acts (2.7 GB) from [www.parliament.lk](https://www.parliament.lk/en/acts-bills).
 
 📦 Raw Data - [https://github.com/nuuuwan/lk_acts_data/tree/main/data](https://github.com/nuuuwan/lk_acts_data/tree/main/data)
 
@@ -18,7 +18,7 @@ Scraped  **2,858** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 
 | decade | n_metadata | n_pdf | n_blocks | n_text | n_ocr_blocks | n_ocr_text | n_act_json |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| 2020s | 178 | 165 | 165 | 165 | 0 | 0 | 107 |
+| 2020s | 179 | 165 | 165 | 165 | 0 | 0 | 107 |
 | 2010s | 264 | 262 | 262 | 262 | 0 | 0 | 142 |
 | 2000s | 314 | 298 | 298 | 257 | 41 | 41 | 117 |
 | 1990s | 357 | 340 | 340 | 36 | 304 | 304 | 26 |
@@ -27,7 +27,7 @@ Scraped  **2,858** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 | 1960s | 324 | 310 | 310 | 0 | 310 | 310 | 0 |
 | 1950s | 452 | 430 | 430 | 0 | 430 | 430 | 0 |
 | 1940s | 88 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Total | 2858 | 2429 | 2429 | 720 | 1709 | 1709 | 392 |
+| Total | 2859 | 2429 | 2429 | 720 | 1709 | 1709 | 392 |
 
 ## 🤗 Hugging Face (🆕)
 
@@ -36,11 +36,12 @@ Scraped  **2,858** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 - [lk-acts-acts](https://huggingface.co/datasets/nuuuwan/lk-acts-acts)
 - [lk-acts-chunks](https://huggingface.co/datasets/nuuuwan/lk-acts-chunks)
 
-## Acts (2,858)
+## Acts (2,859)
 
-### 2025 (15)
+### 2025 (16)
 
 - 🟢 `16/2025` [Rubber Control (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/2020s/2025/2025-016) (2025-08-22)
+- 🟢 `15/2025` [Samurdhi (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/2020s/2025/2025-015) (2025-08-22)
 - 🟢 `14/2025` [Sri Lanka Electricity (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/2020s/2025/2025-014) (2025-08-18)
 - 🟢 `13/2025` [Bills of Exchange (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/2020s/2025/2025-013) (2025-08-15)
 - 🟢 `12/2025` [Companies (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/2020s/2025/2025-012) (2025-08-04)
@@ -2174,7 +2175,7 @@ Scraped  **2,858** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 - 🟢 `30/1970` [Local Authorities Elections (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-030) (1970-11-18)
 - 🟢 `29/1970` [Ceylon (Constitution) (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-029) (1970-11-18)
 - 🔵 `28/1970` [Protection of Tenants (Special Provisions)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-028) (1970-11-18)
-- 🟢 `27/1969` [Registration of Documents (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-027) (1970-03-12)
+- ⚪ `27/1970` [Bank Debits Tax](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-027) (1970-11-01)
 - ⚪ `26/1970` [Prevention of the Avoidance of Tax](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-026) (1970-11-01)
 - ⚪ `25/1970` [Trade Union Representative (Entry into Estates)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-025) (1970-10-20)
 - 🟢 `24/1970` [Trade Unions (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-024) (1970-08-20)
