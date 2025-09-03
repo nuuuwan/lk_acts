@@ -27,7 +27,7 @@ class DataFile(FileFuture):
         return None
 
     def io_class(self):
-        return JSONFile if self.path.endswith(".json") else File
+        return JSONFile if self.path.endswith(".json") else FileFuture
 
     def read(self):
         content = self.io_class()(self.path).read()
