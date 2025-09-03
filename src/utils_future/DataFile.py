@@ -1,12 +1,14 @@
 import os
 from functools import cached_property
 
-from utils import File, JSONFile, Log
+from utils import JSONFile, Log
+
+from utils_future.FileFuture import FileFuture
 
 log = Log("DataFile")
 
 
-class DataFile(File):
+class DataFile(FileFuture):
     def __init__(self, get_path, get_data):
         super().__init__(get_path())
         self.get_path = get_path
