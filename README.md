@@ -18,7 +18,7 @@ Scraped  **2,861** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 
 | decade | n_metadata | n_pdf | n_blocks | n_text | n_ocr_blocks | n_ocr_text | n_act_json |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| 2020s | 181 | 168 | 167 | 167 | 0 | 0 | 107 |
+| 2020s | 181 | 168 | 168 | 168 | 0 | 0 | 107 |
 | 2010s | 264 | 262 | 262 | 262 | 0 | 0 | 142 |
 | 2000s | 314 | 298 | 298 | 257 | 41 | 41 | 117 |
 | 1990s | 357 | 340 | 340 | 36 | 304 | 304 | 26 |
@@ -27,7 +27,7 @@ Scraped  **2,861** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 | 1960s | 324 | 310 | 310 | 0 | 310 | 310 | 0 |
 | 1950s | 452 | 430 | 430 | 0 | 430 | 430 | 0 |
 | 1940s | 88 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Total | 2861 | 2432 | 2431 | 722 | 1709 | 1709 | 392 |
+| Total | 2861 | 2432 | 2432 | 723 | 1709 | 1709 | 392 |
 
 ## 🤗 Hugging Face (🆕)
 
@@ -2177,7 +2177,7 @@ Scraped  **2,861** acts (2.7 GB) from [www.parliament.lk](https://www.parliament
 - 🟢 `30/1970` [Local Authorities Elections (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-030) (1970-11-18)
 - 🟢 `29/1970` [Ceylon (Constitution) (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-029) (1970-11-18)
 - 🔵 `28/1970` [Protection of Tenants (Special Provisions)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-028) (1970-11-18)
-- 🟢 `27/1969` [Registration of Documents (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-027) (1970-03-12)
+- ⚪ `27/1970` [Bank Debits Tax](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-027) (1970-11-01)
 - ⚪ `26/1970` [Prevention of the Avoidance of Tax](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-026) (1970-11-01)
 - ⚪ `25/1970` [Trade Union Representative (Entry into Estates)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-025) (1970-10-20)
 - 🟢 `24/1970` [Trade Unions (Amendment)](https://github.com/nuuuwan/lk_acts_data/tree/main/data/acts/1970s/1970/1970-024) (1970-08-20)
