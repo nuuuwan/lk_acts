@@ -8,7 +8,7 @@ on:
         required: false
         default: "1"
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "35 */12 * * *"
 jobs:
   ocr_extractor:
     runs-on: ubuntu-latest
